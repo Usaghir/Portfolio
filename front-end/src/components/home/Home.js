@@ -8,7 +8,7 @@ const Home = () => {
   const str1 = 'Hello, I am Raja Umer Saghir. ';
   const str2 = 'I am engineer & full-stack developer.';
   return (
-    <Card className="text-center mt-5 mt-5 mb-5 pb-5">
+    <Card className="text-center bg-danger" id="home">
       <Card.Body className=" mt-5 mt-5 mb-5 pb-5">
         <Card.Title className=" mt-5 mt-5 mb-5 pb-5">
           <Typical
