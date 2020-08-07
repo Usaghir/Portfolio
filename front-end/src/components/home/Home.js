@@ -2,13 +2,14 @@ import React from 'react';
 import Typical from 'react-typical';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import HomeBackground from '../../images/HomeBackground.jpg';
 import './Home.css';
 
 const Home = () => {
   const str1 = 'Hello, I am Raja Umer Saghir. ';
   const str2 = 'I am engineer & full-stack developer.';
   return (
-    <Card className="text-center bg-danger" id="home">
+    <Card className="text-center home-background" id="home">
       <Card.Body className=" mt-5 mt-5 mb-5 pb-5">
         <Card.Title className=" mt-5 mt-5 mb-5 pb-5">
           <Typical

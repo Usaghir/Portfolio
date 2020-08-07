@@ -40,7 +40,7 @@ function NavBar() {
               offset={-70}
               duration={500}
             >
-              Skills
+              skills
             </Link>
           </li>
           <li class="nav-link">

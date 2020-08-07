@@ -12,12 +12,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Home />
       <NavBar />
-      <About />
+      <Home />
       <Skills />
-      <Portfolio />
-      <Contact />
     </div>
   );
 }

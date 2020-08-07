@@ -1,3 +1,9 @@
 .Typical {
   font-family: 'Raleway', sans-serif;
 }
+
+.home-background {
+  background-image: url(../../images/HomeBackground.jpg);
+  background-size: cover;
+  height: 80vh;
+}
