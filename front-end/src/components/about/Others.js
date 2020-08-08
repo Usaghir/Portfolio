@@ -24,7 +24,7 @@ import gradle from './images/gradle.png';
 import vscode from './images/vscode.png';
 import './About.css';
 
-function About() {
+function () {
   return (
     <div class="card-deck">
       <div class="card">
@@ -76,7 +76,7 @@ function About() {
             <h3 class="card-title">Front-end</h3>
             <ul className="skills mb-3">
               <li>
-                <img className="navbar-brand mt-3 " src={HTML} style={{ width: 75 }} alt="#" />
+                <img className="navbar-brand mt-3 img" src={HTML} style={{ width: 75 }} alt="#" />
               </li>
               <li>
                 <img className="navbar-brand mt-3 img" src={CSS} style={{ width: 75 }} alt="#" />
@@ -185,32 +185,61 @@ function About() {
   );
 }
 
-export default About;
+export default ;
+.skills {
+  position: relative;
+  background-color: #1d809f;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
 
-<ul class="navbar-nav">
-  <li class="nav-item active">
-    <Link class="nav-link" to="home">
-      Home
-    </Link>
-  </li>
-  <li class="nav-item active">
-    <Link class="nav-link" to="about">
-      About
-    </Link>
-  </li>
-  <li class="nav-item active">
-    <Link class="nav-link" to="skills">
-      Skills
-    </Link>
-  </li>
-  <li class="nav-item active">
-    <Link class="nav-link" to="portfolio">
-      Portfolio
-    </Link>
-  </li>
-  <li class="nav-item active">
-    <Link class="nav-link" to="contact">
-      Contact
-    </Link>
-  </li>
-</ul>;
+.skill-components {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-components li {
+  list-style: none;
+  position: relative;
+  margin: 0 10px;
+}
+
+.skill-components li a {
+  width: 70px;
+  height: 40px;
+  background: #fff;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 36px;
+  transition: .5s;
+}
+
+.skill-components li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
+  transform: rotate(60deg);
+}
+
+.skill-components li a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
