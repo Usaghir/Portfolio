@@ -6,7 +6,8 @@ import About from './components/about/About.js';
 import Skills from './components/skills/Skills.js';
 import Portfolio from './components/portfolio/Portfolio.js';
 import Contact from './components/contact/Contact.js';
-import NotFound from './components/notFound/NotFound.js';
+import Footer from './components/footer/Footer.js';
+
 import './App.css';
 
 function App() {
@@ -14,7 +15,11 @@ function App() {
     <div className="App">
       <NavBar />
       <Home />
+      <About />
       <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -4,48 +4,50 @@ import img from './Umer.jpg';
 
 const About = () => {
   return (
-    <div class="container d-flex justify-content-center">
-      <div class="card center m-auto">
-        <img class="card-img-top img m-auto" src={img} alt="Card image cap"></img>
-        <div class="card-body m-auto">
-          <blockquote class="blockquote mb-0">
-            <p>
-              {' '}
-              Engineer & developer worked as assistant manager (R&D) at Papertale AB and Outso AB
-              Sweden sustainable textile production and technology companies. Problem solver, team
-              player with good social and interpersonal skills. Also have IT and computer
-              programming skills. Fields of interests are R&D, web development, software
-              development, embedded systems and information technology.
-            </p>
-          </blockquote>
-        </div>
-        <div class="row mt-5">
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Work Experience</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+    <div class="bg-light">
+      <div class="container d-flex justify-content-center  ">
+        <div class="all-content-box work-exp-box">
+          <h2>Work Experience</h2>
+          <section class="job-item">
+            <div class="text-left">
+              <h3>ASSISTANT MANAGER (R&D)</h3>
+              <p>Outso AB, Sweden</p>
+              <p>June 2014 - October 2019</p>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Education</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional content.
-                </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+            <div class="job-summary">
+              <article class="text-left">
+                R&D of sustainable, efficient and traceable textile production using RFID/NFC and
+                blockchain technologies. IT support, web development, testing, domains, emails and
+                control-panel administration. Technical documentation, presentation, data analysis,
+                report writing and technical support. Technical product/system development by
+                collaborating with teams, customers and vendors.
+              </article>
             </div>
-          </div>
+          </section>
+          <section class="education work-edu-boxes">
+            <h2>Education</h2>
+            <div class="all-content-box">
+              <article class="text-left">
+                <h3>System Development Java and Web-technologies </h3>
+                <p>Software Development Academy, 2020 (four months)</p>
+                <p>Royal Institute of Technology (KTH) & Novare Potential</p>
+                <p>Lund, Sweden</p>
+              </article>
+
+              <article class="text-left">
+                <h3>Full Stack Web-development</h3>
+                <p>HackYourFuture & Foo Coding, 2018 - 2019 (six months)</p>
+                <p>Malmo, Sweden</p>
+              </article>
+
+              <article class="text-left">
+                <h3>MSC Electrical Engineering</h3>
+                <p>Radio Communication & Signal Processing </p>
+                <p>Blekinge Institute of Technology, 2010 - 2013</p>
+                <p>Kalskrona, Sweden</p>
+              </article>
+            </div>
+          </section>
         </div>
       </div>
     </div>

@@ -1,49 +1,14 @@
-.center {
-  margin: auto;
-  padding: 10px;
-  border: none;
+.skill-list {
+  width: 20em;
 }
 
-.img {
-  width: 75px;
-  margin-top: 100px;
-}
-
-.front-img {
-  list-style: none;
-}
-
-.p-bar {
-  height: 20px;
-  width: 300px;
-}
-
-.p-bar-ch {
-  width: 25%;
-}
-
-.skills {
-  position: relative;
-  background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  text-align: center;
+.pro-h {
+  height: 25px;
 }
 
 .skill-components {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.skill-components div {
-  list-style: none;
-  position: relative;
-  margin: 0 10px;
-}
-
-.skill-components div a {
+  margin: auto;
+  padding: auto;
   width: 140px;
   height: 80px;
   background: #1d809f;
@@ -52,9 +17,10 @@
   line-height: 80px;
   font-size: 72px;
   transition: .5s;
+  transform: rotate(30deg);
 }
 
-.skill-components div a:before {
+.skill-components:before {
   content: '';
   position: absolute;
   top: 0;
@@ -66,7 +32,7 @@
   transform: rotate(60deg);
 }
 
-.skill-components div a:after {
+.skill-components:after {
   content: '';
   position: absolute;
   top: 0;

@@ -24,7 +24,7 @@ function Skills() {
       'MySQL',
       'PostgreSQL',
     ],
-    skills: [
+    tools: [
       'Git',
       'NPM',
       'VS Code',
@@ -39,58 +39,58 @@ function Skills() {
     ],
   });
   return (
-    <div className="skills">
-      <div className="skill-components d-flex justify-content-around">
+    <div className="pt-5 mt-5 container">
+      <div className="justify-content-around row">
         <div>
-          <a className="skill-items">
+          <a className="col skill-components">
             <i class="fas fa-code"></i>
-            <h3 className="mt-5 pt-5">Front-end</h3>
-            <ul className=" mb-3 ml-0 pl-0 front-img">
-              {state.frontEnd.map((items) => (
-                <li className=" mt-3">
-                  <div class="progress p-bar justify-content-start">
-                    <div class="progress-bar p-bar-ch ml-0" role="progressbar">
-                      {items}
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ul>
           </a>
+          <h3 className="mt-4 pt-4 mb-3 pb-3 ">Front-end</h3>
+          <ul className=" col list-group skill-list">
+            {state.tools.map((items) => (
+              <li className=" list-group-item border-0">
+                <div class="progress pro-h">
+                  <div class="progress-bar w-25" role="progressbar">
+                    {items}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
         <div>
-          <a className="skill-items">
+          <a className="col skill-components">
             <i class="fas fa-server"></i>
-            <h3 className="mt-5 pt-5 ">Back-end</h3>
-            <ul className=" mb-3 ml-0 pl-0 front-img">
-              {state.backEnd.map((items) => (
-                <li className=" mt-3">
-                  <div class="progress p-bar justify-content-start">
-                    <div class="progress-bar p-bar-ch ml-0 " role="progressbar">
-                      {items}
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ul>
           </a>
+          <h3 className="mt-4 pt-4 mb-3 pb-3 ">Back-end</h3>
+          <ul className=" col list-group skill-list">
+            {state.backEnd.map((items) => (
+              <li className=" list-group-item border-0 ">
+                <div class="progress pro-h">
+                  <div class="progress-bar w-50" role="progressbar">
+                    {items}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
-        <div class=" ">
-          <a className="skill-items">
-            <i class="fas fa-tools"></i>
-            <h3 className="mt-5 pt-5">Tool-othe</h3>
-            <ul className=" mb-3 ml-0 pl-0 front-img">
-              {state.skills.map((items) => (
-                <li className=" mt-3">
-                  <div class="progress p-bar justify-content-start">
-                    <div class="progress-bar p-bar-ch ml-0" role="progressbar">
-                      {items}
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ul>
+        <div>
+          <a className="col skill-components">
+            <i class="fas fa-tools "></i>
           </a>
+          <h3 className="mt-4 pt-4 mb-3 pb-3 ">Tools</h3>
+          <ul className="col list-group skill-list ">
+            {state.tools.map((items) => (
+              <li className=" list-group-item border-0">
+                <div class="progress pro-h">
+                  <div class="progress-bar w-75" role="progressbar">
+                    {items}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
