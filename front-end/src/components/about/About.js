@@ -3,20 +3,20 @@ import './About.css';
 
 const About = () => {
   return (
-    <div class="bg-light" id="about">
-      <div class=" container w-75 d-flex   ">
-        <div class="m-4 p-4 ">
-          <h2 class="mb-3 pb-3">Work Experience</h2>
+    <div id="about" style={{ backgroundColor: '#feffff' }}>
+      <div class=" container w-75">
+        <h1 className="mt-5 mb-5 pt-5 pb-5">About</h1>
+        <div class="">
+          <h4 class="">Work Experience</h4>
 
-          <section class="job-item mb-3 pb-3">
+          <section class="job-item mb-3 pb-3 bottom-border">
             <div class="text-left">
-              <h5>ASSISTANT MANAGER (R&D)</h5>
+              <h5>ASSIT. MANAGER (R&D)</h5>
+              <h6>June 2014 - October 2019</h6>
+              <h6>Outso AB & PaperTale AB</h6>
+              <h6>Malmo, Sweden</h6>
             </div>
             <div class="job-summary">
-              <div class="text-left">
-                <h6>Outso AB, Sweden</h6>
-                <p>June 2014 - October 2019</p>
-              </div>
               <article class="text-left">
                 Research and development of sustainable, efficient and traceable textile production
                 using RFID/NFC. IT support, web development, testing, domains, emails and
@@ -25,49 +25,28 @@ const About = () => {
             </div>
           </section>
 
-          <h2 class="mb-3 pb-3">Education</h2>
-
-          <section class="job-item">
-            <div class="text-left">
-              <h5>System Development Java</h5>
-            </div>
-            <div class="job-summary mb-3 pb-3">
-              <div class="text-left">
-                <h6>Software Development Academy</h6>
-                <p>Lund (Sweden)</p>
+          <h4 className="mb-3 pb-3">Education</h4>
+          <section class="text-left bottom-border">
+            <div class="">
+              <section>
+                <h5>System Development Java and Web-technologies </h5>
+                <p>Software Development Academy, 2020 (four months)</p>
                 <p>Royal Institute of Technology (KTH) & Novare Potential</p>
-                <p>February 2020 - June 2020</p>
-                Software Engineering (UML, Lean, Agile, Scrum), Data Structure and Algorithms,
-                Testing, Bug Fixing, Web development (Java, Collection API, Spring Boot) Git,
-                GitHub, GitLab, Enterprise Technology (Docker, Maven, Gradle, Hibernate, MS Azure)
-                Database (PostgresSQL, MongoDB), Individual project & Group project
-              </div>
-            </div>
+                <p>Lund, Sweden</p>
+              </section>
 
-            <div class="text-left">
-              <h5>Full-stack Development</h5>
-            </div>
-            <div class="job-summary mb-3 pb-3">
-              <div class="text-left">
-                <h6> Web Development Course</h6>
+              <section>
+                <h5>Full Stack Web-development</h5>
+                <p>HackYourFuture & Foo Coding, 2018 - 2019 (six months)</p>
                 <p>Malmo, Sweden</p>
-                <p>HackYourFuture & Foo Coding, Malmo (Sweden)</p>
-                <p>November 2018 - May 2019</p>
-                HTML5, CSS3, Responsive Design, JavaScript, ES6, React, Redux, Node, Express, NPM,
-                HTTP, Ajax, REST API, GraphQL, FireBase, Git, GitHub, Unix, Linux, Terminal,
-                Database, MySQL, Group Project
-              </div>
-            </div>
+              </section>
 
-            <div class="text-left">
-              <h5>MSc Electrical Engineering</h5>
-            </div>
-            <div class="job-summary mb-3 pb-3">
-              <div class="text-left">
-                <h6>Radio Communication & Signal Processing</h6>
+              <section>
+                <h5>MSC Electrical Engineering</h5>
+                <p>Radio Communication & Signal Processing </p>
                 <p>Blekinge Institute of Technology, 2010 - 2013</p>
                 <p>Kalskrona, Sweden</p>
-              </div>
+              </section>
             </div>
           </section>
         </div>

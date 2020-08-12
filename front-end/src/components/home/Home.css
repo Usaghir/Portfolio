@@ -1,10 +1,18 @@
 .Typical {
   font-family: 'Raleway', sans-serif;
-  color: lightgoldenrodyellow;
 }
 
 .home-background {
   background-image: url(../../images/H.jpeg);
+  border: #1e2c30;
+
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
+}
+
+.image {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: -40px;
+  margin-top: 50px;
 }

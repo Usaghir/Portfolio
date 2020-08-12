@@ -5,13 +5,13 @@ import pizza from '../../images/pizza.png';
 
 function Portfolio() {
   return (
-    <div className="bg-light" id="portfolio">
-      <div class="container  pt-5 mt-5 pb-5 mb-5">
+    <div className=" pt-5 pb-5" id="portfolio" style={{ backgroundColor: '#feffff' }}>
+      <div class="container w-75">
         <div class="card-deck ">
           <div class="card">
             <img class="card-img-top" src={cv} alt="Card image cap"></img>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title mt-3 pt-3">Card title</h5>
               <p class="card-text">
                 This is a longer card with supporting text below as a natural lead-in to additional
               </p>
@@ -23,7 +23,7 @@ function Portfolio() {
           <div class="card">
             <img class="card-img-top" src={defever} alt="Card image cap"></img>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title mt-3 pt-3">Card title</h5>
               <p class="card-text">
                 This card has supporting text below as a natural lead-in to additional content.
               </p>
@@ -35,7 +35,7 @@ function Portfolio() {
           <div class="card">
             <img class="card-img-top" src={pizza} alt="Card image cap"></img>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title mt-3 pt-3">Card title</h5>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural lead-in to additional
               </p>

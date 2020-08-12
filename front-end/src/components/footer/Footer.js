@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div>
-      <footer>
+    <div className="">
+      <footer style={{ backgroundColor: '#2b7a78' }}>
         <div class="all-content-box">
           <h2>Let's Keep in Touch!</h2>
           <ul class="contact-items">
