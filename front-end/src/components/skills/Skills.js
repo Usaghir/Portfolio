@@ -39,7 +39,7 @@ function Skills() {
     ],
   });
   return (
-    <div className="pt-5 mt-5 container">
+    <div className="pt-5 mt-5 container" id="skills">
       <div className="justify-content-around row">
         <div>
           <a className="col skill-components">

@@ -5,11 +5,11 @@ import './NavBar.css';
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav">
           <li class="nav-link">
             <Link
-              to="about"
+              to="home"
               activeClass="active"
               spy={true}
               smooth={true}
@@ -40,7 +40,7 @@ function NavBar() {
               offset={-70}
               duration={500}
             >
-              skills
+              Skills
             </Link>
           </li>
           <li class="nav-link">

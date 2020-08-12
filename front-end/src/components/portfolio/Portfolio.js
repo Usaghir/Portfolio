@@ -5,7 +5,7 @@ import pizza from '../../images/pizza.png';
 
 function Portfolio() {
   return (
-    <div className="bg-light">
+    <div className="bg-light" id="portfolio">
       <div class="container  pt-5 mt-5 pb-5 mb-5">
         <div class="card-deck ">
           <div class="card">

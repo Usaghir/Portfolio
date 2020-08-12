@@ -42,7 +42,7 @@ h2 {
 }
 
 .all-content-box {
-  max-width: 800px;
+  max-width: 1000px;
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
@@ -101,6 +101,10 @@ header h2 {
 
 .work-exp-box article {
   padding: 15px;
+}
+
+.job-item {
+  border-bottom: 1px dashed #343434;
 }
 
 /* Education

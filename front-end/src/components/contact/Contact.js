@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="container mt-3 w-50 pt-3">
+    <div className="container mt-3 w-50 pt-3" id="contact">
       <form className=" needs-validation card  m-2 p-2  border-0" onSubmit={1}>
         <div className="form-col">
           <div className="form-group ">
