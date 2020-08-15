@@ -1,0 +1,11 @@
+.underline-bar {
+  background: #3aafa9;
+  height: 4px;
+  width: 70px;
+  margin: auto;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1.5px;
+}

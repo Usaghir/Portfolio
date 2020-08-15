@@ -3,14 +3,36 @@
 }
 
 .pro-h {
-  height: 25px;
+  height: 20px;
+  width: 110%
+}
+
+.extra-margin {
+  margin-bottom: 100px;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1.5px;
 }
 
 .bg-col {
   background-color: #feffff;
 }
 
+.underline-bar {
+  background: #3aafa9;
+  height: 4px;
+  width: 70px;
+  margin: auto;
+}
+
+.rotate-icon {
+  transform: rotate(-30deg);
+}
+
 .skill-components {
+  position: relative;
   margin: auto;
   padding: auto;
   width: 140px;

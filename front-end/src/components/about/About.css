@@ -2,14 +2,29 @@
   border-bottom: 1px dashed #343434;
 }
 
+.underline-bar {
+  background: #3aafa9;
+  height: 4px;
+  width: 70px;
+  margin: auto;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1.5px;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
 /* Responsive
 ------------------------------------*/
+
 @media screen and (min-width: 750px) {
-  header,
-  footer {
+  header, footer {
     text-align: center;
   }
-
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;

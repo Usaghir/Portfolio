@@ -1,0 +1,20 @@
+.bot-border {
+  border-bottom: 3px solid #3aafa9;
+}
+
+nav.sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.navi>.Link {
+  color: blue;
+}
+
+.navi>.active {
+  color: #83A5B0;
+}
