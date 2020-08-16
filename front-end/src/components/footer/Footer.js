@@ -3,11 +3,11 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="">
-      <footer style={{ backgroundColor: '#2b7a78' }}>
-        <div class="all-content-box">
+    <div className="pt-5">
+      <footer style={{ backgroundColor: '#17252a' }}>
+        <div class="all-content-box pt-5">
           <h2>Let's Keep in Touch!</h2>
-          <ul class="contact-items">
+          <ul class="contact-items mb-0 pb-5">
             <li>
               <a href="https://www.linkedin.com/in/usaghir/" target="_blank">
                 <i class="fab fa-linkedin"></i>

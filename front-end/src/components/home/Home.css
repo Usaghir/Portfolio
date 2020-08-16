@@ -1,11 +1,6 @@
-.Typical {
-  font-family: 'Raleway', sans-serif;
-}
-
 .home-background {
   background-image: url(../../images/H.jpeg);
   border: #1e2c30;
-
   background-size: cover;
   height: 100vh;
 }
@@ -15,4 +10,9 @@
   width: 120px;
   margin-bottom: -40px;
   margin-top: 50px;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1.5px;
 }

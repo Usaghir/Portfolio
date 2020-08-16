@@ -13,7 +13,7 @@ const Home = () => {
   });
 
   function changeBackground(e) {
-    e.target.style.background = '#83A5B0';
+    e.target.style.background = '#3aafa9';
   }
 
   function revertBackground(e) {
@@ -26,9 +26,7 @@ const Home = () => {
     <Card className="text-center home-background " id="home">
       {' '}
       <Card.Body className=" m-5 p-5">
-        <img className="image" src={umer} alt="Profile Picture">
-          {' '}
-        </img>
+        <img className="image" src={umer} alt="Profile Picture"></img>
         <Card.Title
           className=" mt-5 mt-5 mb-3 pb-3"
           style={{
@@ -85,6 +83,7 @@ const Home = () => {
           className="mr-4"
         >
           <Button
+            className="font-bebas pt-2"
             variant="light"
             style={{
               backgroundColor: 'transparent',
@@ -93,9 +92,9 @@ const Home = () => {
             onMouseOver={changeBackground}
             onMouseLeave={revertBackground}
           >
-            View my work{' '}
-          </Button>{' '}
-        </Link>{' '}
+            view my work
+          </Button>
+        </Link>
         <Link
           to="skills"
           activeClass="active"
@@ -110,16 +109,17 @@ const Home = () => {
           onMouseLeave={revertBackground}
         >
           <Button
+            className="font-bebas pt-2"
             variant="light"
             style={{
               backgroundColor: 'transparent',
               color: '#feffff',
             }}
           >
-            Download CV{' '}
-          </Button>{' '}
-        </Link>{' '}
-      </Card.Body>{' '}
+            Download CV
+          </Button>
+        </Link>
+      </Card.Body>
     </Card>
   );
 };

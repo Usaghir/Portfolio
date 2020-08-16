@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-scroll';
+import React, { useState } from 'react';
 import cv from '../../images/cv.png';
 import defever from '../../images/defever.png';
 import pizza from '../../images/pizza.png';
@@ -7,48 +7,145 @@ import Button from 'react-bootstrap/Button';
 import './Portfolio.css';
 
 function Portfolio() {
+  const [state, setState] = useState({
+    buttonColor: 'blue',
+  });
+
+  function changeBackground(e) {
+    e.target.style.background = '#3aafa9';
+  }
+
+  function revertBackground(e) {
+    e.target.style.background = 'transparent';
+  }
+
   return (
-    <div className=" pt-5 pb-5" id="portfolio" style={{ backgroundColor: '#feffff' }}>
-      <div class="container w-75">
-        <h1 className="  font-weight-bold ">PORTFOLIO</h1>
+    <section class="projects">
+      <div class="content-wrap divider  pt-5 pb-5 container w-75" id="portfolio">
+        <h1 className="mt-5  font-weight-bold">PROJECTS</h1>
         <div class="underline-bar mb-5"></div>
-        <div class="card-deck ">
-          <div class="card">
-            <img class="card-img-top" src={cv} alt="Card image cap"></img>
-            <div class="card-body">
-              <h5 class="card-title mt-3 pt-3 font-bebas">Online CV</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural lead-in to additional
-              </p>
-              <button class="card-text mr-1">Website</button>
-              <button class="card-text">GitHub</button>
-            </div>
+
+        <section class="project-item row justify-content-start">
+          <img src={cv} alt="course thumbnail col"></img>
+          <div className="col text-left">
+            <h3 className="font-bebas">Online CV </h3>
+            <p>
+              Topizza is a small online pizza store Demo application where the user can order pizzas
+              and place in shopping cart. User can also add, subtract or remove the order items and
+              see total cost and additional cost as well. User can place the form by filling the
+              detail. User can see the history of the order in form of invoices.
+            </p>
+
+            <Button
+              className="font-bebas pt-2"
+              variant="dark"
+              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              website
+            </Button>
+            <Button
+              className="font-bebas pt-2 ml-2"
+              variant="dark"
+              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              github
+            </Button>
           </div>
-          <div class="card">
-            <img class="card-img-top" src={defever} alt="Card image cap"></img>
-            <div class="card-body">
-              <h5 class="card-title mt-3 pt-3 font-bebas">Defever</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to additional content.
-              </p>
-              <button class="card-text mr-1">Website</button>
-              <button class="card-text">GitHub</button>
-            </div>
+        </section>
+
+        <section class="project-item row">
+          <img src={defever} alt="website thumbnail col"></img>
+          <div className="col text-left">
+            <h3 className="font-bebas">Defever</h3>
+            <p>
+              Topizza is a small online pizza store Demo application where the user can order pizzas
+              and place in shopping cart. User can also add, subtract or remove the order items and
+              see total cost and additional cost as well. User can place the form by filling the
+              detail. User can see the history of the order in form of invoices.
+            </p>
+            <Button
+              className="font-bebas pt-2 "
+              variant="dark"
+              href="http://christinatruong.com/projects/women-and-tech-redesign.html"
+              target="_blank"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              website
+            </Button>
+            <Button
+              className="font-bebas pt-2 ml-2"
+              variant="dark"
+              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              github
+            </Button>
           </div>
-          <div class="card">
-            <img class="card-img-top" src={pizza} alt="Card image cap"></img>
-            <div class="card-body">
-              <h5 class="card-title mt-3 pt-3 font-bebas">Topizza</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-              </p>
-              <button class="card-text mr-1">Website</button>
-              <button class="card-text">GitHub</button>
-            </div>
+        </section>
+
+        <section class="project-item row">
+          <img src={pizza} alt="website thumbnail col"></img>
+          <div className="col text-left">
+            <h3 className="font-bebas">Topizza</h3>
+            <p>
+              Topizza is a small online pizza store Demo application where the user can order pizzas
+              and place in shopping cart. User can also add, subtract or remove the order items and
+              see total cost and additional cost as well. User can place the form by filling the
+              detail. User can see the history of the order in form of invoices.
+            </p>
+            <Button
+              className="font-bebas pt-2"
+              variant="dark"
+              href="http://thewireipsum.com"
+              target="_blank"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              website
+            </Button>
+            <Button
+              className="font-bebas pt-2 ml-2"
+              variant="dark"
+              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              github
+            </Button>
           </div>
-        </div>
+        </section>
       </div>
-    </div>
+    </section>
   );
 }
 

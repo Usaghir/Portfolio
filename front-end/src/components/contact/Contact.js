@@ -1,15 +1,18 @@
 import React from 'react';
+import './Contact.css';
 
 function Contact() {
   return (
-    <div style={{ backgroundColor: '#3aafa9' }}>
-      <div className="container w-50 pt-5 pb-3" id="contact">
+    <div style={{ backgroundColor: '#F7FFF7' }}>
+      <div className="container w-50" id="contact">
+        <h1 className="  font-weight-bold">Contact</h1>
+        <div class="underline-bar mb-5"></div>
         <form
           className=" needs-validation card  m-2 p-2  border-0"
-          style={{ backgroundColor: '#3aafa9' }}
+          style={{ backgroundColor: '#F7FFF7' }}
           onSubmit={1}
         >
-          <div className="form-col " style={{ backgroundColor: '#3aafa9' }}>
+          <div className="form-col " style={{ backgroundColor: '#F7FFF7' }}>
             <div className="form-group ">
               <input
                 type="text"

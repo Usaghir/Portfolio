@@ -3,8 +3,8 @@ import './About.css';
 
 const About = () => {
   return (
-    <div id="about" style={{ backgroundColor: '#feffff' }}>
-      <div class="mt-5 container w-75">
+    <div id="about" style={{ backgroundColor: '#def2f1' }}>
+      <div class="pt-5 pb-5 container w-75">
         <h1 className="mt-5  font-weight-bold">ABOUT</h1>
         <div class="underline-bar mb-5"></div>
         <div class="">

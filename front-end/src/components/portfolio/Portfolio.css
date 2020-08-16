@@ -9,3 +9,24 @@
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1.5px;
 }
+
+/* Projects
+------------------------------------*/
+
+.projects {
+  background: #F7FFF7;
+}
+
+img {
+  width: 300px;
+}
+
+.divider>section {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+
+.divider>section:last-of-type {
+  border: none;
+}
