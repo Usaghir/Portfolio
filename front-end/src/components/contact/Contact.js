@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div style={{ backgroundColor: '#F7FFF7' }}>
       <div className="container w-50" id="contact">
-        <h1 className="  font-weight-bold">Contact</h1>
+        <h1 className="  font-weight-bold">CONTACT</h1>
         <div class="underline-bar mb-5"></div>
         <form
           className=" needs-validation card  m-2 p-2  border-0"

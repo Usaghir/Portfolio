@@ -39,7 +39,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2"
               variant="dark"
-              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              href="#"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
@@ -52,7 +52,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2 ml-2"
               variant="dark"
-              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              href="#"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
@@ -78,7 +78,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2 "
               variant="dark"
-              href="http://christinatruong.com/projects/women-and-tech-redesign.html"
+              href="#"
               target="_blank"
               style={{
                 backgroundColor: 'transparent',
@@ -92,7 +92,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2 ml-2"
               variant="dark"
-              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              href="#"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
@@ -118,7 +118,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2"
               variant="dark"
-              href="http://thewireipsum.com"
+              href="#"
               target="_blank"
               style={{
                 backgroundColor: 'transparent',
@@ -132,7 +132,7 @@ function Portfolio() {
             <Button
               className="font-bebas pt-2 ml-2"
               variant="dark"
-              href="https://www.lynda.com/Christina-Truong/7842227-1.html"
+              href="#"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
