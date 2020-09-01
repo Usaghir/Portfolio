@@ -16,3 +16,18 @@
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1.5px;
 }
+
+.top-gap {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  .top-gap {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .home-background {
+    height: 100vh;
+  }
+}

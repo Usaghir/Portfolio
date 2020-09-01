@@ -11,10 +11,10 @@ nav.sticky {
   width: 100%;
 }
 
-.navi>.Link {
+.navi > .Link {
   color: blue;
 }
 
-.navi>.active {
-  color: #83A5B0;
+.navi > .active {
+  color: #83a5b0;
 }

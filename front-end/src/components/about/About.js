@@ -4,27 +4,27 @@ import './About.css';
 const About = () => {
   return (
     <div id="about" style={{ backgroundColor: '#def2f1' }}>
-      <div class="pt-5 pb-5 container w-75">
+      <div className="pt-5 pb-5 container w-75">
         <h1 className="mt-5  font-weight-bold">ABOUT</h1>
-        <div class="underline-bar mb-5"></div>
-        <div class="">
-          <h3 class="mt-5 font-bebas">Work Experience</h3>
+        <div className="underline-bar mb-5"></div>
+        <div className="">
+          <h3 className="mt-5 font-bebas">Work Experience</h3>
 
-          <section class="job-item bottom-border mt-5">
-            <div class="text-left">
+          <section className="job-item bottom-border mt-5">
+            <div className="text-left">
               <h5 className="font-weight-bold">ASSIT. MANAGER (R&D)</h5>
               <h6 className="font-weight">June 2014 - October 2019</h6>
               <h6>Outso AB & PaperTale AB</h6>
               <h6>Malmo, Sweden</h6>
             </div>
-            <div class="job-summary">
-              <article class="text-left font-weight ">
+            <div className="job-summary">
+              <article className="text-left font-weight ">
                 Research and development of sustainable, efficient and traceable textile production
                 using RFID/NFC. IT support, web development, testing, domains, emails and
                 control-panel administration.
               </article>
-              <h6 class="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
-              <ul class="text-left ">
+              <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
+              <ul className="text-left ">
                 <li>R&D of sustainable and trackable textile production</li>
                 <li>IT support, web development, testing, ERP development</li>
                 <li>Website payment gateway integration & maintenance</li>
@@ -35,8 +35,8 @@ const About = () => {
           </section>
 
           <h3 className="mt-5 font-bebas">Education</h3>
-          <section class="text-left bottom-border mt-5">
-            <div class="">
+          <section className="text-left bottom-border mt-5">
+            <div className="">
               <section>
                 <h5 className="font-weight-bold text-uppercase">
                   System Development Java and Web-technologies

@@ -42,28 +42,32 @@ function Skills() {
     <div className="mt-5 pt-5 bg-col" id="skills" style={{ backgroundColor: '#feffff' }}>
       <div className=" mb-5 pb-5 container w-75">
         <h1 className="  font-weight-bold ">SKILLS</h1>
-        <div class="underline-bar mb-5"></div>
-        <div class="mb-5"></div>
+        <div className="underline-bar mb-5"></div>
+        <div className="mb-5"></div>
         <div className="">
           <div className=" justify-content-around row">
             <div className="">
               <a className="col mt-5 skill-components ">
-                <i class="rotate-icon fas fa-code"></i>
+                <i className="rotate-icon fas fa-code"></i>
               </a>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Front end</h3>
               <ul className=" col list-group skill-list">
-                {state.frontEnd.map((item) => (
-                  <li className=" list-group-item border-0" style={{ backgroundColor: '#feffff' }}>
-                    <div class="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                {state.frontEnd.map((item, index) => (
+                  <li
+                    className=" list-group-item border-0"
+                    key={index}
+                    style={{ backgroundColor: '#feffff' }}
+                  >
+                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
                       <div
-                        class="progress-bar w-25"
+                        className="progress-bar w-25"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >
                         {Object.keys(item)}
                       </div>
                       <div
-                        class="progress-bar-striped"
+                        className="progress-bar-striped"
                         role="progressbar"
                         style={{
                           backgroundColor: '#3aafa9',
@@ -77,22 +81,26 @@ function Skills() {
             </div>
             <div>
               <a className="col mt-5 skill-components">
-                <i class="rotate-icon fas fa-server"></i>
+                <i className="rotate-icon fas fa-server"></i>
               </a>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Back end</h3>
               <ul className=" col list-group skill-list">
-                {state.backEnd.map((item) => (
-                  <li className=" list-group-item border-0" style={{ backgroundColor: '#feffff' }}>
-                    <div class="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                {state.backEnd.map((item, index) => (
+                  <li
+                    className=" list-group-item border-0"
+                    key={index}
+                    style={{ backgroundColor: '#feffff' }}
+                  >
+                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
                       <div
-                        class="progress-bar w-25"
+                        className="progress-bar w-25"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >
                         {Object.keys(item)}
                       </div>
                       <div
-                        class="progress-bar-striped"
+                        className="progress-bar-striped"
                         role="progressbar"
                         style={{ backgroundColor: '#3aafa9', width: Object.values(item) + '%' }}
                       ></div>
@@ -103,22 +111,26 @@ function Skills() {
             </div>
             <div>
               <a className="col mt-5 skill-components">
-                <i class="rotate-icon fas fa-tools "></i>
+                <i className="rotate-icon fas fa-tools "></i>
               </a>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Tools</h3>
               <ul className="col list-group skill-list ">
-                {state.tools.map((item) => (
-                  <li className=" list-group-item border-0" style={{ backgroundColor: '#feffff' }}>
-                    <div class="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                {state.tools.map((item, index) => (
+                  <li
+                    className=" list-group-item border-0"
+                    key={index}
+                    style={{ backgroundColor: '#feffff' }}
+                  >
+                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
                       <div
-                        class="progress-bar w-25"
+                        className="progress-bar w-25"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >
                         {Object.keys(item)}
                       </div>
                       <div
-                        class="progress-bar-striped"
+                        className="progress-bar-striped"
                         role="progressbar"
                         style={{ backgroundColor: '#3aafa9', width: Object.values(item) + '%' }}
                       ></div>

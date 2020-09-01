@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import umer from '../../images/umer.jpg';
+import cv from './CV.pdf';
+import { Document, Page } from 'react-pdf';
 
 import './Home.css';
 
@@ -11,6 +13,26 @@ const Home = () => {
   const [state, setState] = useState({
     buttonColor: 'blue',
   });
+
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+  function renderPdf() {
+    return (
+      <div>
+        <Document file="somefile.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+          <Page pageNumber={pageNumber} />
+        </Document>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
+      </div>
+    );
+  }
 
   function changeBackground(e) {
     e.target.style.background = '#3aafa9';
@@ -24,8 +46,7 @@ const Home = () => {
   const str2 = 'I am engineer & full-stack developer.';
   return (
     <Card className="text-center home-background " id="home">
-      {' '}
-      <Card.Body className=" m-5 p-5">
+      <Card.Body className=" top-gap">
         <img className="image" src={umer} alt="Profile Picture"></img>
         <Card.Title
           className=" mt-5 mt-5 mb-3 pb-3"
@@ -41,12 +62,12 @@ const Home = () => {
           />{' '}
         </Card.Title>{' '}
         <article
-          class="container w-75 mb-3 pb-3"
+          className="container w-75 mb-3 pb-3"
           style={{
             color: '#feffff',
           }}
         >
-          Worked as assistant manager(R & D) at{' '}
+          Worked as Project Engineer(R & D) at{' '}
           <a
             href="https://papertale.org"
             target="_blank"
@@ -95,30 +116,18 @@ const Home = () => {
             view my work
           </Button>
         </Link>
-        <Link
-          to="skills"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+        <Button
+          className="font-bebas pt-2"
+          variant="light"
           style={{
+            backgroundColor: 'transparent',
             color: '#feffff',
           }}
-          onMouseOver={changeBackground}
-          onMouseLeave={revertBackground}
         >
-          <Button
-            className="font-bebas pt-2"
-            variant="light"
-            style={{
-              backgroundColor: 'transparent',
-              color: '#feffff',
-            }}
-          >
+          <a href={cv} target="_blank">
             Download CV
-          </Button>
-        </Link>
+          </a>
+        </Button>
       </Card.Body>
     </Card>
   );

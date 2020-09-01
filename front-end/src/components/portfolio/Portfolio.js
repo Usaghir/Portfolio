@@ -20,14 +20,14 @@ function Portfolio() {
   }
 
   return (
-    <section class="projects">
-      <div class="content-wrap divider  pt-5 pb-5 container w-75" id="portfolio">
+    <section className="projects">
+      <div className="content-wrap divider  pt-5 pb-5 container w-75" id="portfolio">
         <h1 className="mt-5  font-weight-bold">PROJECTS</h1>
-        <div class="underline-bar mb-5"></div>
+        <div className="underline-bar mb-5"></div>
 
-        <section class="project-item row justify-content-start">
-          <img src={cv} alt="course thumbnail col"></img>
-          <div className="col text-left">
+        <section className="project-item row justify-content-start">
+          <img src={cv} alt="course thumbnail"></img>
+          <div className=" text-left">
             <h3 className="font-bebas">Online CV </h3>
             <p>
               Topizza is a small online pizza store Demo application where the user can order pizzas
@@ -65,9 +65,9 @@ function Portfolio() {
           </div>
         </section>
 
-        <section class="project-item row">
-          <img src={defever} alt="website thumbnail col"></img>
-          <div className="col text-left">
+        <section className="project-item row">
+          <img src={defever} alt="website thumbnail"></img>
+          <div className=" text-left">
             <h3 className="font-bebas">Defever</h3>
             <p>
               Topizza is a small online pizza store Demo application where the user can order pizzas
@@ -105,9 +105,9 @@ function Portfolio() {
           </div>
         </section>
 
-        <section class="project-item row">
-          <img src={pizza} alt="website thumbnail col"></img>
-          <div className="col text-left">
+        <section className="project-item row">
+          <img src={pizza} alt="website thumbnail"></img>
+          <div className=" text-left">
             <h3 className="font-bebas">Topizza</h3>
             <p>
               Topizza is a small online pizza store Demo application where the user can order pizzas

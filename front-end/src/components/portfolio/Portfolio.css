@@ -27,6 +27,10 @@ img {
   padding: 25px 0;
 }
 
-.divider>section:last-of-type {
-  border: none;
+@media screen and (min-width: 750px) {
+  .project-item {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    column-gap: 20px !important;
+  }
 }
