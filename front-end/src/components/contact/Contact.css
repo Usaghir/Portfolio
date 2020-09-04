@@ -14,5 +14,5 @@ input:-webkit-autofill:active {
 /*Change text in autofill textbox*/
 
 input:-webkit-autofill {
-  -webkit-text-fill-color: #ffffff !important;
+  -webkit-text-fill-color: #f7ffff !important;
 }

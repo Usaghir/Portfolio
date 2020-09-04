@@ -1,4 +1,4 @@
-import React, { useContext, useState, useReducer } from 'react';
+import React, { useState } from 'react';
 
 import './Skills.css';
 
@@ -20,18 +20,19 @@ function Skills() {
       { MongoDB: '35' },
       { Firebase: '25' },
       { Java: '45' },
-      { 'Spring Boot': '25' },
+      { Spring: '25' },
       { MySQL: '35' },
       { PostgreSQL: '35' },
     ],
     tools: [
       { Git: '50' },
       { NPM: '50' },
+      { IntelliJ: '50' },
+      { Eclipse: '50' },
       { 'VS Code': '50' },
       { Maven: '25' },
       { Gradle: '25' },
-      { IntelliJ: '50' },
-      { Eclipse: '50' },
+      { UML: '50' },
       { 'Draw IO': '50' },
       { Docker: '25' },
       { PostMan: '50' },
@@ -39,13 +40,13 @@ function Skills() {
     ],
   });
   return (
-    <div className="mt-5 pt-5 bg-col" id="skills" style={{ backgroundColor: '#feffff' }}>
-      <div className=" mb-5 pb-5 container w-75">
+    <div className="pt-5 bg-col" id="skills" style={{ backgroundColor: '#ffffff' }}>
+      <div className="container pt-5  pb-5 button w-75">
         <h1 className="  font-weight-bold ">SKILLS</h1>
         <div className="underline-bar mb-5"></div>
-        <div className="mb-5"></div>
+        <div className=""></div>
         <div className="">
-          <div className=" justify-content-around row">
+          <div className=" pt-5 justify-content-around row">
             <div className="">
               <a className="col mt-5 skill-components ">
                 <i className="rotate-icon fas fa-code"></i>
@@ -58,9 +59,12 @@ function Skills() {
                     key={index}
                     style={{ backgroundColor: '#feffff' }}
                   >
-                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                    <div
+                      className="progress pro-h rounded-0"
+                      style={{ backgroundColor: '#def2f1' }}
+                    >
                       <div
-                        className="progress-bar w-25"
+                        className="progress-bar w-25 font-weight-bold"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >
@@ -91,16 +95,19 @@ function Skills() {
                     key={index}
                     style={{ backgroundColor: '#feffff' }}
                   >
-                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                    <div
+                      className="progress pro-h rounded-0"
+                      style={{ backgroundColor: '#def2f1' }}
+                    >
                       <div
-                        className="progress-bar w-25"
+                        className="progress-bar w-25 font-weight-bold"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >
                         {Object.keys(item)}
                       </div>
                       <div
-                        className="progress-bar-striped"
+                        className="progress-bar-striped "
                         role="progressbar"
                         style={{ backgroundColor: '#3aafa9', width: Object.values(item) + '%' }}
                       ></div>
@@ -121,9 +128,12 @@ function Skills() {
                     key={index}
                     style={{ backgroundColor: '#feffff' }}
                   >
-                    <div className="progress pro-h" style={{ backgroundColor: '#def2f1' }}>
+                    <div
+                      className="progress pro-h rounded-0"
+                      style={{ backgroundColor: '#def2f1' }}
+                    >
                       <div
-                        className="progress-bar w-25"
+                        className="progress-bar w-25 font-weight-bold"
                         role="progressbar"
                         style={{ backgroundColor: '#2b7a78' }}
                       >

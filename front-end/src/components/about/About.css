@@ -1,5 +1,6 @@
-.bottom-border {
-  border-bottom: 1px dashed #343434;
+.about-background {
+  background-image: url(../../images/about.jpeg);
+  background-size: cover;
 }
 
 .underline-bar {
@@ -18,11 +19,97 @@
   font-weight: 600;
 }
 
+.rotate-icon {
+  transform: rotate(-30deg);
+}
+
+a {
+  color: #2b7a78;
+}
+.work-comp {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  width: 70px;
+  height: 40px;
+  background: #2b7a78;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 36px;
+  transition: 0.5s;
+  transform: rotate(30deg);
+}
+
+.work-comp:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2b7a78;
+  z-index: -1;
+  transform: rotate(60deg);
+}
+
+.work-comp:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2b7a78;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
+
+.edu-comp {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  width: 70px;
+  height: 40px;
+  background: #2b7a78;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 36px;
+  transition: 0.5s;
+  transform: rotate(30deg);
+}
+
+.edu-comp:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2b7a78;
+  z-index: -1;
+  transform: rotate(60deg);
+}
+
+.edu-comp:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2b7a78;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
+
 /* Responsive
 ------------------------------------*/
 
 @media screen and (min-width: 750px) {
-  header, footer {
+  header,
+  footer {
     text-align: center;
   }
   .job-item {

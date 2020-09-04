@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 5000;
 const path = require('path');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
@@ -17,6 +17,8 @@ app.set('view engine', 'handlebars');
 //Body Parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+app.use('/files', express.static(__dirname + '/Files'));
 
 app.get('/form', async (req, res) => {
   try {
