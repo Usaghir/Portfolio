@@ -18,8 +18,6 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/files', express.static(__dirname + '/Files'));
-
 app.get('/form', async (req, res) => {
   try {
     res.send('hello');
@@ -70,6 +68,10 @@ app.post('/send', async (req, res) => {
   } catch (err) {
     console.error(err.message);
   }
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'front-end/build/index.html'));
 });
 
 app.listen(PORT, () => {
