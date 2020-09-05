@@ -18,6 +18,11 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+if (process.env.NODE_ENV === 'production') {
+  //server static content.
+  // npm run build.
+  app.use(express.static(path.join(__dirname, 'client/build')));
+}
 app.get('/form', async (req, res) => {
   try {
     res.send('hello');
@@ -68,6 +73,10 @@ app.post('/send', async (req, res) => {
   } catch (err) {
     console.error(err.message);
   }
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build/index.html'));
 });
 
 app.listen(PORT, () => {
