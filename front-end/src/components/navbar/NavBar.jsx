@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import './NavBar.css';
 function NavBar() {
   function changeColor(e) {
-    e.target.style.color = '#83A5B0';
+    e.target.style.color = '#3aafa9';
   }
 
   function revertColor(e) {
@@ -25,6 +25,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
+            className="font-weight-bold"
           >
             HOME
           </Link>
@@ -39,6 +40,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
+            className="font-weight-bold"
           >
             ABOUT
           </Link>
@@ -53,6 +55,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
+            className="font-weight-bold"
           >
             SKILLS
           </Link>
@@ -67,8 +70,9 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
+            className="font-weight-bold"
           >
-            PORTFOLIO
+            PROJECTS
           </Link>
         </li>
         <li className="nav-link navi">
@@ -81,6 +85,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
+            className="font-weight-bold"
           >
             CONTACT
           </Link>
