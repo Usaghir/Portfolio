@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Typical from 'react-typical';
 import { Link } from 'react-scroll';
 import Card from 'react-bootstrap/Card';
@@ -79,6 +79,7 @@ const Home = () => {
             }}
             href={cv}
             target="_blank"
+            rel="noopener noreferrer"
           >
             Open Resume
           </a>

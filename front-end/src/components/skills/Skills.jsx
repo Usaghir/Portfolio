@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Skills.css';
 
 function Skills() {
-  const [state, setState] = useState({
+  const [state] = useState({
     frontEnd: [
       { HTML5: '65' },
       { CSS3: '55' },
@@ -48,9 +48,9 @@ function Skills() {
         <div className="">
           <div className=" pt-5 justify-content-around row">
             <div className="">
-              <a className="col mt-5 skill-components ">
+              <div className="col mt-5 skill-components ">
                 <i className="rotate-icon fas fa-code"></i>
-              </a>
+              </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Front end</h3>
               <ul className=" col list-group skill-list">
                 {state.frontEnd.map((item, index) => (
@@ -84,9 +84,9 @@ function Skills() {
               </ul>
             </div>
             <div>
-              <a className="col mt-5 skill-components">
+              <div className="col mt-5 skill-components">
                 <i className="rotate-icon fas fa-server"></i>
-              </a>
+              </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Back end</h3>
               <ul className=" col list-group skill-list">
                 {state.backEnd.map((item, index) => (
@@ -117,9 +117,9 @@ function Skills() {
               </ul>
             </div>
             <div>
-              <a className="col mt-5 skill-components">
+              <div className="col mt-5 skill-components">
                 <i className="rotate-icon fas fa-tools "></i>
-              </a>
+              </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Tools</h3>
               <ul className="col list-group skill-list ">
                 {state.tools.map((item, index) => (

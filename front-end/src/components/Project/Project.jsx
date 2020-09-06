@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cv from '../../images/cv.png';
 import defever from '../../images/defever.png';
 import pizza from '../../images/pizza.png';
@@ -6,10 +6,6 @@ import Button from 'react-bootstrap/Button';
 import './Project.css';
 
 function Project() {
-  const [state, setState] = useState({
-    buttonColor: 'blue',
-  });
-
   function changeBackground(e) {
     e.target.style.background = '#17252a';
     e.target.style.color = '#f7ffff';

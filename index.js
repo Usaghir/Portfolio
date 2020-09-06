@@ -32,19 +32,6 @@ app.get('/form', async (req, res) => {
   }
 });
 
-app.get('/cv', async (req, res) => {
-  try {
-    res.writeHead(200, {
-      'Content-Type': 'application/pdf',
-      'Content-Disposition': 'attachment; filename=some_file.pdf',
-      'Content-Length': data.length,
-    });
-    res.end(pdfData);
-  } catch (err) {
-    console.error(err.message);
-  }
-});
-
 app.post('/send', async (req, res) => {
   try {
     console.log(req.body);

@@ -10,7 +10,11 @@ function Footer() {
           <h2>Let's Keep in Touch!</h2>
           <ul className="contact-items mb-0 pb-5">
             <li>
-              <a href="https://www.linkedin.com/in/usaghir/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/usaghir/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-linkedin "></i>
               </a>
             </li>
@@ -20,7 +24,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="http://github.com/Usaghir" target="_blank">
+              <a href="http://github.com/Usaghir" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github-square"></i>
               </a>
             </li>
