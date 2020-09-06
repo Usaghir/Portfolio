@@ -3,17 +3,10 @@ import Typical from 'react-typical';
 import { Link } from 'react-scroll';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import cv from './CV.pdf';
 import './Home.css';
 
 const Home = () => {
-  const [state, setState] = useState({
-    buttonColor: 'blue',
-  });
-
-  function openPdf() {
-    window.open('http://localhost:5000/files/CV.pdf', '_blank');
-  }
-
   function changeBackground(e) {
     e.target.style.background = '#17252a';
   }
@@ -75,13 +68,20 @@ const Home = () => {
           variant="light"
           style={{
             backgroundColor: 'transparent',
-            color: '#feffff',
           }}
           onMouseOver={changeBackground}
           onMouseLeave={revertBackground}
-          onClick={openPdf}
         >
-          Open Resume
+          <a
+            style={{
+              color: '#feffff',
+              backgroundColor: 'transparent',
+            }}
+            href={cv}
+            target="_blank"
+          >
+            Open Resume
+          </a>
         </Button>
       </Card.Body>
     </Card>

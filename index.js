@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 const path = require('path');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
@@ -18,9 +18,28 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+if (process.env.NODE_ENV === 'production') {
+  //server static content.
+  // npm run build.
+  app.use(express.static(path.join(__dirname, 'front-end/build')));
+}
+
 app.get('/form', async (req, res) => {
   try {
     res.send('hello');
+  } catch (err) {
+    console.error(err.message);
+  }
+});
+
+app.get('/cv', async (req, res) => {
+  try {
+    res.writeHead(200, {
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': 'attachment; filename=some_file.pdf',
+      'Content-Length': data.length,
+    });
+    res.end(pdfData);
   } catch (err) {
     console.error(err.message);
   }
