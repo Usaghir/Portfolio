@@ -1,13 +1,14 @@
-.about-background {
-  background-image: url(../../images/about.jpeg);
-  background-size: cover;
-}
-
 .underline-bar {
   background: #3aafa9;
   height: 4px;
   width: 70px;
   margin: auto;
+}
+
+.underline {
+  background: #3aafa9;
+  height: 2px;
+  width: 100%;
 }
 
 .font-bebas {
@@ -26,6 +27,7 @@
 a {
   color: #2b7a78;
 }
+
 .work-comp {
   position: relative;
   margin: auto;
@@ -108,8 +110,7 @@ a {
 ------------------------------------*/
 
 @media screen and (min-width: 750px) {
-  header,
-  footer {
+  header, footer {
     text-align: center;
   }
   .job-item {

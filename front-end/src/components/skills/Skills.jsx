@@ -5,11 +5,11 @@ import './Skills.css';
 function Skills() {
   const [state] = useState({
     frontEnd: [
-      { HTML5: '65' },
-      { CSS3: '55' },
-      { Bootstrap: '55' },
+      { HTML5: '50' },
+      { CSS3: '35' },
+      { Bootstrap: '35' },
       { JavaScript: '55' },
-      { React: '45' },
+      { React: '35' },
       { Redux: '35' },
       { Photoshop: '25' },
       { 'Adobe XD': '25' },
@@ -25,18 +25,18 @@ function Skills() {
       { PostgreSQL: '35' },
     ],
     tools: [
-      { Git: '50' },
-      { NPM: '50' },
-      { IntelliJ: '50' },
-      { Eclipse: '50' },
-      { 'VS Code': '50' },
+      { Git: '40' },
+      { NPM: '30' },
+      { IntelliJ: '30' },
+      { Eclipse: '30' },
+      { 'VS Code': '30' },
       { Maven: '25' },
       { Gradle: '25' },
-      { UML: '50' },
-      { 'Draw IO': '50' },
+      { UML: '30' },
+      { 'Draw IO': '30' },
       { Docker: '25' },
-      { PostMan: '50' },
-      { Jira: '50' },
+      { PostMan: '25' },
+      { Jira: '25' },
     ],
   });
   return (
