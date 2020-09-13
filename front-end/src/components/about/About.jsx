@@ -149,7 +149,6 @@ const About = () => {
                   <p>Kalskrona, Sweden</p>
                 </section>
               </section>
-              <div className="underline"></div>
             </div>
           </div>
         </div>
