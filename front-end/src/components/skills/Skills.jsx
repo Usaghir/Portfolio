@@ -6,41 +6,40 @@ function Skills() {
   const [state] = useState({
     frontEnd: [
       { HTML5: '50' },
-      { CSS3: '35' },
-      { Bootstrap: '35' },
+      { CSS3: '45' },
+      { Bootstrap: '45' },
       { JavaScript: '55' },
       { React: '35' },
       { Redux: '35' },
-      { Photoshop: '25' },
-      { 'Adobe XD': '25' },
+      { ContextAPI: '35' },
+      { Photoshop: '35' },
+      { 'Adobe XD': '35' },
     ],
     backEnd: [
       { NodeJS: '35' },
       { Express: '35' },
-      { MongoDB: '35' },
-      { Firebase: '25' },
       { Java: '45' },
-      { Spring: '25' },
+      { SpringBoot: '25' },
       { MySQL: '35' },
       { PostgreSQL: '35' },
+      { MongoDB: '35' },
+      { RestAPI: '25' },
+      { Firebase: '25' },
     ],
     tools: [
-      { Git: '40' },
-      { NPM: '30' },
-      { IntelliJ: '30' },
-      { Eclipse: '30' },
-      { 'VS Code': '30' },
-      { Maven: '25' },
-      { Gradle: '25' },
-      { UML: '30' },
-      { 'Draw IO': '30' },
-      { Docker: '25' },
-      { PostMan: '25' },
-      { Jira: '25' },
+      { Git: '45' },
+      { NPM: '40' },
+      { IntelliJ: '40' },
+      { Eclipse: '40' },
+      { 'VS Code': '40' },
+      { UML: '40' },
+      { 'Draw IO': '40' },
+      { Docker: '35' },
+      { Jira: '35' },
     ],
   });
   return (
-    <div className="pt-5 bg-col" id="skills" style={{ backgroundColor: '#ffffff' }}>
+    <div className="pt-5 mb-5 bg-col" id="skills" style={{ backgroundColor: '#ffffff' }}>
       <div className="container pt-5  pb-5 button w-75">
         <h1 className="  font-weight-bold ">SKILLS</h1>
         <div className="underline-bar mb-5"></div>

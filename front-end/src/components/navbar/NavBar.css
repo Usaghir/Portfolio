@@ -11,10 +11,16 @@ nav.sticky {
   width: 100%;
 }
 
-.navi>.Link {
+.navi > .Link {
   color: blue;
 }
 
-.navi>.active {
+.navi > .active {
   color: #3aafa9;
+}
+
+@media screen and (max-width: 750px) {
+  .res-size {
+    font-size: 12px;
+  }
 }

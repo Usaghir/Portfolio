@@ -46,7 +46,7 @@ const About = () => {
           <div className="underline"></div>
           <div className="disp-top edu-items col mt-5 pt-5 ">
             <div className=" edu-comp">
-              <i className="rotate-icon fas fa-graduation-cap"></i>
+              <i className=" rotate-icon fas fa-chalkboard-teacher"></i>
             </div>
           </div>
           <h3 className="pt-5 font-bebas">Trainings</h3>
@@ -89,7 +89,7 @@ const About = () => {
                 <li>Web application development, Spring Boot</li>
                 <li>Git, GitHub, GitLab, Unix, Linux, Terminal</li>
                 <li>Database, SQL, PostgreSQL, MongoDB, XML, JSON</li>
-                <li>Data access, web services, HTTP, AJAX, REST API.</li>
+                <li>Data access, web services, HTTP, AJAX, REST API</li>
                 <li>Best practices for large-scale development</li>
                 <li>Individual and group project</li>
               </ul>
@@ -100,7 +100,7 @@ const About = () => {
               <h5 className="font-weight-bold">Full-stack Web-Development JavaScript</h5>
               <h6 className="font-weight">Dec 2018 - May 2019</h6>
               <p className="font-weight-bold">
-                <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.foocoding.org/" target="_blank" rel="noopener noreferrer">
                   Foo Coding
                 </a>
               </p>
@@ -139,7 +139,7 @@ const About = () => {
                   <h5 className="mt-4 font-weight-bold text-uppercase">
                     MS Electrical Engineering
                   </h5>
-                  <p className="font-weight">Radio Communication & Signal Processing </p>
+                  <p className="font-weight">Radio Communication </p>
                   <p className="font-weight"> 2010 - 2013</p>
                   <p className="font-weight-bold">
                     <a href="https://www.bth.se/" target="_blank" rel="noopener noreferrer">

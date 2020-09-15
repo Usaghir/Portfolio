@@ -14,7 +14,7 @@ function NavBar() {
       className="navbar navbar-expand bot-border sticky"
       style={{ backgroundColor: '#17252a', color: '#feffff' }}
     >
-      <ul className="navbar-nav" id="navbar">
+      <ul className="navbar-nav nnn" id="navbar">
         <li className="nav-link navi">
           <Link
             to="home"
@@ -25,7 +25,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold"
+            className="font-weight-bold res-size"
           >
             HOME
           </Link>
@@ -40,7 +40,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold"
+            className="font-weight-bold res-size "
           >
             ABOUT
           </Link>
@@ -55,7 +55,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold"
+            className="font-weight-bold res-size "
           >
             SKILLS
           </Link>
@@ -70,7 +70,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold"
+            className="font-weight-bold res-size "
           >
             PROJECTS
           </Link>
@@ -85,7 +85,7 @@ function NavBar() {
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold"
+            className="font-weight-bold res-size "
           >
             CONTACT
           </Link>

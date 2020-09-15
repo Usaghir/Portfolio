@@ -75,6 +75,7 @@ function Project() {
               className="font-bebas pt-2 rounded-0"
               variant="dark"
               href="https://usaghir.github.io/Online-CV/"
+              target="_blank"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
