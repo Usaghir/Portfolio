@@ -29,8 +29,12 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://git.2020.school/raja_umer_saghir" target="_blank">
-                <i class="fab fa-gitlab"></i>
+              <a
+                href="https://git.2020.school/raja_umer_saghir"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-gitlab"></i>
               </a>
             </li>
           </ul>
