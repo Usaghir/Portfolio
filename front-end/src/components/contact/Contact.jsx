@@ -90,7 +90,7 @@ function Contact() {
                 name="message"
                 value={state.message}
                 onChange={changeHandler}
-                placeholder="Enter your massage for us here. We will get back to you within 2 business days."
+                placeholder="Please enter your massage here."
                 rows="7"
                 required
               ></textarea>
@@ -102,7 +102,7 @@ function Contact() {
                 className="form-control  border-0 pl-3 rounded-0"
                 style={{ background: '#3aafa9', color: '#f7ffff' }}
               >
-                Thanks for sending the message will get back as soon as possible.
+                Thanks for sending the message and will get back as soon as possible.
               </div>
             </div>
           ) : (

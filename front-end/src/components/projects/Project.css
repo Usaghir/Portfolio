@@ -1,5 +1,5 @@
-.underline-bar {
-  background: #3aafa9;
+.underline-dark-bar {
+  background: #17252a;
   height: 4px;
   width: 70px;
   margin: auto;
@@ -22,7 +22,7 @@ img {
   height: 100%;
 }
 
-.divider > section {
+.divider>section {
   overflow: hidden;
   border-bottom: 1px #343434;
   padding: 25px 0;

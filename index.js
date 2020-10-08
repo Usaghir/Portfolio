@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 const path = require('path');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
@@ -37,11 +37,11 @@ app.post('/send', async (req, res) => {
     console.log(req.body);
     res.send('hello');
 
-    const sentData = `   <p>You have a new contact request</p>
-  <h3>Contact Details</h3>
+    const sentData = `
+  <h3>Sender Details</h3>
   <ul>  
     <li>Name: ${req.body.name}</li>
-    <li>Phone: ${req.body.email}</li>
+    <li>Email: ${req.body.email}</li>
   </ul>
   <h3>Message</h3>
   <p>${req.body.message}</p>`;
@@ -52,7 +52,7 @@ app.post('/send', async (req, res) => {
       secure: false, // true for 465, false for other ports
       auth: {
         user: 'contact@rajaumersaghir.com', // generated ethereal user
-        pass: '1Pak0Swed114#', // generated ethereal password
+        pass: 'Random001', // generated ethereal password
       },
     });
 
@@ -60,7 +60,7 @@ app.post('/send', async (req, res) => {
     let info = await transporter.sendMail({
       from: '`Email from rajaumersaghir.com account` <contact@rajaumersaghir.com>', // sender address
       to: 'umer.saghir@live.com', // list of receivers
-      subject: 'Hello', // Subject line
+      subject: 'New message from rajaumersaghir.com', // Subject line
       text: 'Hello world?', // plain text body
       html: `<b>${sentData}</b>`, // html body
     });

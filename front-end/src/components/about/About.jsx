@@ -6,7 +6,7 @@ const About = () => {
     <div className="pt-5 about-background " id="about" style={{ backgroundColor: '#def2f1' }}>
       <div className="pt-5 pb-5 container w-75">
         <h1 className=" font-weight-bold">ABOUT</h1>
-        <div className="underline-bar mb-5"></div>
+        <div className="underline-bar mb-3"></div>
         <div className="pt-5">
           <div className="col mt-5  work-comp">
             <i className="rotate-icon fas fa-briefcase"></i>
@@ -54,13 +54,17 @@ const About = () => {
             <div className="text-left">
               <h5 className="font-weight-bold">System Development Java</h5>
               <h6 className="font-weight">Feb 2020 - May 2020</h6>
-              <p className="font-weight-bold">Software Development Academy</p>
               <p className="font-weight-bold">
                 <a
                   href="https://www.kth.se/en/itm/sda/software-development-academy-1.841849"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  Software Development Academy
+                </a>
+              </p>
+              <p className="">
+                <a href="https://www.kth.se" target="_blank" rel="noopener noreferrer">
                   Royal Institute of Technology (KTH)
                 </a>{' '}
                 &{' '}
@@ -104,12 +108,18 @@ const About = () => {
                   Foo Coding
                 </a>
               </p>
+              <p className="">
+                <a href="https://foocafe.org/" target="_blank" rel="noopener noreferrer">
+                  Foo Cafe Foundation
+                </a>
+              </p>
+
               <h6>Malmo, Sweden</h6>
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                FooCoding is a six months course in full stack web development run by the Foo Café
-                Foundation in Malmö and Stockholm.
+                Foo Coding is a six months course in full stack web development run by the Foo Cafe
+                Foundation in Malmo and Stockholm.
               </article>
               <h6 className="text-left mt-3 font-weight-bold font-bebas">COURSE CONTENTS</h6>
               <ul className="text-left mb-5">

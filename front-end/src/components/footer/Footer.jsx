@@ -28,15 +28,6 @@ function Footer() {
                 <i className="fab fa-github-square"></i>
               </a>
             </li>
-            <li>
-              <a
-                href="https://git.2020.school/raja_umer_saghir"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-gitlab"></i>
-              </a>
-            </li>
           </ul>
           <div>Copyright © {year}, All right reserved by Raja Umer Saghir </div>
         </div>
