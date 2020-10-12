@@ -23,7 +23,7 @@ function Project() {
         <div className="underline-dark-bar mb-5"></div>
         <div className="underline-bar mb-5"></div>
         <section className="project-item row">
-          <img src={defever} alt="website thumbnail"></img>
+          <img style={{ maxHeight: '200px' }} src={defever} alt="website thumbnail"></img>
           <div className=" text-left">
             <h3 className="font-bebas">Defever</h3>
             <p>
@@ -62,7 +62,7 @@ function Project() {
           </div>
         </section>
         <section className="project-item pt-5 row">
-          <img className=" " src={pizza} alt="website thumbnail"></img>
+          <img style={{ maxHeight: '200px' }} src={pizza} alt="website thumbnail"></img>
           <div className=" text-left">
             <h3 className="font-bebas ">Topizza</h3>
             <p>
@@ -101,7 +101,7 @@ function Project() {
           </div>
         </section>
         <section className="project-item row justify-content-start">
-          <img src={cv} alt="course thumbnail"></img>
+          <img style={{ maxHeight: '200px' }} src={cv} alt="course thumbnail"></img>
           <div className=" text-left">
             <h3 className="font-bebas">Online CV </h3>
             <p>
