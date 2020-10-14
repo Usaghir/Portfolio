@@ -99,7 +99,7 @@ const About = () => {
               </ul>
             </div>
           </section>
-          <section className="job-item bottom-border mt-5">
+          <section className="job-item bottom-border mt-2">
             <div className="text-left">
               <h5 className="font-weight-bold">Full-stack Web-Development JavaScript</h5>
               <h6 className="font-weight">Dec 2018 - May 2019</h6>
