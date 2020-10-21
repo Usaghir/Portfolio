@@ -51,7 +51,7 @@ function Skills() {
                 <i className="rotate-icon fas fa-code"></i>
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Front end</h3>
-              <ul className=" col list-group skill-list">
+              <ul className="mb-5 col list-group skill-list">
                 {state.frontEnd.map((item, index) => (
                   <li
                     className=" list-group-item border-0"
@@ -87,7 +87,7 @@ function Skills() {
                 <i className="rotate-icon fas fa-server"></i>
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Back end</h3>
-              <ul className=" col list-group skill-list">
+              <ul className="mb-5 col list-group skill-list">
                 {state.backEnd.map((item, index) => (
                   <li
                     className=" list-group-item border-0"
@@ -120,7 +120,7 @@ function Skills() {
                 <i className="rotate-icon fas fa-tools "></i>
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Tools</h3>
-              <ul className="col list-group skill-list ">
+              <ul className="mb-5 col list-group skill-list ">
                 {state.tools.map((item, index) => (
                   <li
                     className=" list-group-item border-0"

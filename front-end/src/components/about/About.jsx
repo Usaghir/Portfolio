@@ -118,8 +118,8 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Foo Coding is a six months course in full stack web development run by the Foo Cafe
-                Foundation in Malmo and Stockholm.
+                Foo Coding is full-stack web-development programme by the Foo Cafe
+                 in Malmo and Stockholm.
               </article>
               <h6 className="text-left mt-3 font-weight-bold font-bebas">COURSE CONTENTS</h6>
               <ul className="text-left mb-5">
