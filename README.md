@@ -2,4 +2,4 @@
 
 ## Please visit the live link.
 
-[www.rajaumersaghir.herokuapp.com](https://rajaumersaghir.com/)
+[www.rajaumersaghir.com](https://rajaumersaghir.com/)
