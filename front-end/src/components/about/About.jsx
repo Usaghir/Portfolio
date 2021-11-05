@@ -14,16 +14,40 @@ const About = () => {
           <h3 className="pt-5 font-bebas">Work Experience</h3>
           <section className="job-item bottom-border mt-5">
             <div className="text-left">
+              <h5 className="font-weight-bold">Software Engineer</h5>
+              <h6 className="font-weight">February 2021 - Present</h6>
+              <p className="font-weight-bold">
+                <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
+                  PaperTale Technology AB
+                </a>
+              </p>
+              <h6>Malmo, Sweden</h6>
+            </div>
+            <div className="job-summary">
+              <article className="text-left font-weight ">
+                Worked in Software development project of sustainable, efficient and traceable
+                textile supply chain Mobile and Web application PaperTale.
+              </article>
+              <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
+              <ul className="text-left mb-5">
+                <li>Full Stack development, HTML, CSS, JavaScript, React, Node</li>
+                <li>Mobile App development, Dart and Flutter </li>
+                <li>Backend development, Java, Spring boot, Vaadin</li>
+                <li>Testing and deployment of web and mobile App</li>
+                <li>UX/UI support, design management and quality control</li>
+                <li>Requirement management, product owner</li>
+              </ul>
+            </div>
+          </section>
+          <section className="job-item bottom-border mt-2">
+            <div className="text-left">
               <h5 className="font-weight-bold">Project Engineer</h5>
               <h6 className="font-weight">August 2017 - Oct 2019</h6>
               <p className="font-weight-bold">
-                <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
-                  PaperTale AB
-                </a>{' '}
-                &{' '}
+                
                 <a href="https://outso.se/" target="_blank" rel="noopener noreferrer">
                   Outso AB
-                </a>{' '}
+                </a>
               </p>
               <h6>Malmo, Sweden</h6>
             </div>
