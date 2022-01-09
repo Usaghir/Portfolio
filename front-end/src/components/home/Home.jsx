@@ -16,11 +16,11 @@ const Home = () => {
   }
 
   const str1 = 'Hello, I am Raja Umer Saghir. ';
-  const str2 = 'I am full-stack web developer.';
+  const str2 = 'I am full-stack developer.';
   return (
     <Card className="text-center home-background pt-5" id="home">
       <Card.Body className=" top-gap">
-        <div className=" hex-comp ">
+        <div className=" hex-comp">
           <div className=" inside-comp">
             <div className="img-comp"></div>
           </div>

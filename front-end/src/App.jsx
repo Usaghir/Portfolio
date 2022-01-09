@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 
 import './App.css';
+import 'animate.css';
 
 function App() {
   return (

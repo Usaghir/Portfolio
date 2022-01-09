@@ -36,6 +36,7 @@
   margin: auto;
   overflow: hidden;
   visibility: hidden;
+  
 }
 
 .inside-comp {
@@ -62,6 +63,7 @@
   -o-transform: rotate(-60deg);
   -webkit-transform: rotate(-60deg);
   visibility: visible;
+ 
 }
 
 @media screen and (max-width: 750px) {

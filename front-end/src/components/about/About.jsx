@@ -1,9 +1,10 @@
 import React from 'react';
 import './About.css';
 
+
 const About = () => {
   return (
-    <div className="pt-5 about-background " id="about" style={{ backgroundColor: '#def2f1' }}>
+    <div className="pt-5 about-background" id="about" style={{ backgroundColor: '#def2f1' }}>
       <div className="pt-5 pb-5 container w-75">
         <h1 className=" font-weight-bold">ABOUT</h1>
         <div className="underline-bar mb-3"></div>
@@ -30,11 +31,11 @@ const About = () => {
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Full Stack development, HTML, CSS, JavaScript, React, Node</li>
+                <li>Web development, HTML, CSS, JS, React, NodeJS</li>
                 <li>Mobile App development, Dart and Flutter </li>
-                <li>Backend development, Java, Spring boot, Vaadin</li>
-                <li>Testing and deployment of web and mobile App</li>
-                <li>UX/UI support, design management and quality control</li>
+                <li>Deployment of web and mobile App</li>
+                <li>UX/UI support, quality control, testing</li>
+                <li>Backend development, Java, Spring boot</li>
                 <li>Requirement management, product owner</li>
               </ul>
             </div>
@@ -58,12 +59,10 @@ const About = () => {
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>IT support, web development, testing, ERP development</li>
-                <li>WordPress and Shopify online store development </li>
-                <li>Website payment gateway integration & maintenance</li>
+                <li>Technical support, ERP development, testing</li>
+                <li>WordPress, Shopify online store development</li>
                 <li>Domains, emails and control-panel administration</li>
-                <li>Documentation, presentation & report writing</li>
-                <li>Coordination with overseas teams, customers & vendors</li>
+                <li>Documentation, presentation, report writing</li>
               </ul>
             </div>
           </section>

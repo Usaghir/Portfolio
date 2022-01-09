@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../../images/cv.jpeg';
+import PaperTale from '../../images/papertale.png';
 import defever from '../../images/defever.jpeg';
 import pizza from '../../images/pizza.jpeg';
 import Button from 'react-bootstrap/Button';
@@ -50,6 +50,7 @@ function Project() {
               className="font-bebas pt-2 ml-2 rounded-0"
               variant="dark"
               href="https://github.com/Usaghir/defever"
+              target="_blank"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
@@ -89,6 +90,7 @@ function Project() {
               className="font-bebas pt-2 ml-2 rounded-0"
               variant="dark"
               href="https://github.com/Usaghir/Pizza-Task"
+              target="_blank"
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
@@ -101,20 +103,20 @@ function Project() {
           </div>
         </section>
         <section className="project-item row justify-content-start">
-          <img style={{ maxHeight: '200px' }} src={cv} alt="course thumbnail"></img>
+          <img style={{ maxHeight: '200px' }} src={PaperTale} alt="course thumbnail"></img>
           <div className=" text-left">
-            <h3 className="font-bebas">Online CV </h3>
+            <h3 className="font-bebas">PaperTale</h3>
             <p>
-              Online CV is a HTML, CSS based resume application. Application consist of profile page
-              with summary and images. Application also have pages with educational detail and work
-              experience history. Online resume also have skills and tools icons and also social
-              media and contact icons in the footer page as well.
+              PaperTale Tracking is a HTML, CSS, Bootstrap, JavaScript, React based marketing web application to give demo of actual PaperTale mobile app and encourage 
+              consumers to download it. It has input page
+              where consumer can input a garment code (10323 for demo) of the brand and can see some supply chain information
+              like total water and carbon impact, some workers and one product journey step.
             </p>
 
             <Button
               className="font-bebas pt-2 rounded-0"
               variant="dark"
-              href="https://usaghir.github.io/Online-CV/"
+              href="https://track.papertale.se/"
               target="_blank"
               style={{
                 backgroundColor: 'transparent',
@@ -125,7 +127,7 @@ function Project() {
             >
               website
             </Button>
-            <Button
+            {/* <Button
               className="font-bebas pt-2 ml-2 rounded-0"
               variant="dark"
               href="https://github.com/Usaghir/Online-CV"
@@ -137,7 +139,7 @@ function Project() {
               onMouseLeave={revertBackground}
             >
               github
-            </Button>
+            </Button> */}
           </div>
         </section>
       </div>

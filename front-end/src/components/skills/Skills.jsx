@@ -33,7 +33,7 @@ function Skills() {
       { Eclipse: '40' },
       { 'VS Code': '40' },
       { XCode: '40' },
-      { 'Draw IO': '40' },
+      { Postman: '40' },
       { Docker: '35' },
       { Jira: '35' },
     ],
