@@ -109,7 +109,7 @@ function Project() {
             <p>
               PaperTale Tracking is a HTML, CSS, Bootstrap, JavaScript, React based marketing web application to give demo of actual PaperTale mobile app and encourage 
               consumers to download it. It has input page
-              where consumer can input a garment code (10323 for demo) of the brand and can see some supply chain information
+              where consumer can input a garment code (PFAB10323 for demo) of the brand and can see some supply chain information
               like total water and carbon impact, some workers and one product journey step.
             </p>
 
