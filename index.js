@@ -51,7 +51,7 @@ app.post('/send', async (req, res) => {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: 'contact@rajaumersaghir.com', // generated ethereal user
+        user: 'info@medionic.se', // generated ethereal user
         pass: 'Random001', // generated ethereal password
       },
     });

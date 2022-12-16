@@ -25,11 +25,9 @@ function Contact() {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
-  const axiosInstance = axios.create({baseURL: process.env.REACT_APP_API_URL});
-
   const submitHandler = (e) => {
     e.preventDefault();
-    axiosInstance
+    axios
       .post('/send', {
         name: state.name,
         email: state.email,
