@@ -58,7 +58,7 @@ app.post('/send', async (req, res) => {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '`Email from rajaumersaghir.com account` <contact@rajaumersaghir.com>', // sender address
+      from: '`Email from rajaumersaghir.com account` <info@medionic.se>', // sender address
       to: 'umer.saghir@live.com', // list of receivers
       subject: 'New message from rajaumersaghir.com', // Subject line
       text: 'Hello world?', // plain text body
