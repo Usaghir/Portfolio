@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'front-end/build')));
 }
 
-app.get('/form', async (req, res) => {
+app.get('/api/form', async (req, res) => {
   try {
     res.send('hello');
   } catch (err) {
@@ -32,7 +32,7 @@ app.get('/form', async (req, res) => {
   }
 });
 
-app.post('/send', async (req, res) => {
+app.post('/api/send', async (req, res) => {
   try {
     console.log(req.body);
     res.send('hello');

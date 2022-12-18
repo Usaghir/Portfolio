@@ -28,7 +28,7 @@ function Contact() {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post('/send', {
+      .post('/api/send', {
         name: state.name,
         email: state.email,
         message: state.message,
