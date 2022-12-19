@@ -51,14 +51,14 @@ app.post('/api/send', async (req, res) => {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: 'info@medionic.se', // generated ethereal user
+        user: 'contact@rajaumersaghir.com', // generated ethereal user
         pass: 'Random001', // generated ethereal password
       },
     });
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '`Email from rajaumersaghir.com account` <info@medionic.se>', // sender address
+      from: '`Email from rajaumersaghir.com account` <contact@rajaumersaghir.com>', // sender address
       to: 'umer.saghir@live.com', // list of receivers
       subject: 'New message from rajaumersaghir.com', // Subject line
       text: 'Hello world?', // plain text body
