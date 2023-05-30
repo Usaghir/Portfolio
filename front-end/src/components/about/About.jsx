@@ -16,7 +16,7 @@ const About = () => {
           <section className="job-item bottom-border mt-5">
             <div className="text-left">
               <h5 className="font-weight-bold">Software Engineer</h5>
-              <h6 className="font-weight">February 2021 - Present</h6>
+              <h6 className="font-weight">February 2021 - September 2022</h6>
               <p className="font-weight-bold">
                 <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
                   PaperTale Technology AB
@@ -26,17 +26,17 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Worked in Software development project of sustainable, efficient and traceable
-                textile supply chain Mobile and Web application PaperTale.
+              Engineers and developers worked on a web development project for sustainable, efficient, and traceable textile production and supply chain applications
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Web development, HTML, CSS, JS, React, NodeJS</li>
+                <li>Full-stack development using React and Node JS</li>
                 <li>Mobile App development, Dart and Flutter </li>
-                <li>Deployment of web and mobile App</li>
-                <li>UX/UI support, quality control, testing</li>
-                <li>Backend development, Java, Spring boot</li>
-                <li>Requirement management, product owner</li>
+                <li>Backend development using Java, Spring, and AWS</li>
+                <li>Testing and deployment of web applications</li>
+                <li>UX/UI design assistance and quality assurance</li>
+                <li>Deployment of websites and mobile apps</li>
+                <li>Requirement management and product ownership roles</li>
               </ul>
             </div>
           </section>
@@ -59,10 +59,10 @@ const About = () => {
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Technical support, ERP development, testing</li>
-                <li>WordPress, Shopify online store development</li>
-                <li>Domains, emails and control-panel administration</li>
-                <li>Documentation, presentation, report writing</li>
+                <li>Technical support, web development and testing</li>
+                <li>WordPress and Shopify online store development</li>
+                <li>Domains, emails, and control-panel administration</li>
+                <li>Documentation, presentation, and report writing</li>
               </ul>
             </div>
           </section>

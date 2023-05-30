@@ -75,7 +75,7 @@ function Project() {
             <Button
               className="font-bebas pt-2 rounded-0"
               variant="dark"
-              href="https://topizza.herokuapp.com/"
+              href="https://topizza-31e90.firebaseapp.com/"
               target="_blank"
               style={{
                 backgroundColor: 'transparent',
