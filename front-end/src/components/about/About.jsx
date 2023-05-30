@@ -32,7 +32,7 @@ const About = () => {
               <ul className="text-left mb-5">
                 <li>Full-stack development using React and Node JS</li>
                 <li>Mobile App development, Dart and Flutter </li>
-                <li>Backend development using Java, Spring, and AWS</li>
+                <li>Backend development using Java, Spring and AWS</li>
                 <li>Testing and deployment of web applications</li>
                 <li>UX/UI design assistance and quality assurance</li>
                 <li>Deployment of websites and mobile apps</li>
@@ -61,8 +61,8 @@ const About = () => {
               <ul className="text-left mb-5">
                 <li>Technical support, web development and testing</li>
                 <li>WordPress and Shopify online store development</li>
-                <li>Domains, emails, and control-panel administration</li>
-                <li>Documentation, presentation, and report writing</li>
+                <li>Domains, emails and control-panel administration</li>
+                <li>Documentation, presentation and report writing</li>
               </ul>
             </div>
           </section>
