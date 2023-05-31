@@ -45,7 +45,7 @@ const Home = () => {
       wrapper="span"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '2em', display: 'inline-block', fontFamily: "Courier New" }}
     />
         </Card.Title>{' '}
         <Link

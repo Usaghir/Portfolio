@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-              Engineers and developers worked on a web development project for sustainable, efficient, and traceable textile production and supply chain applications
+              Worked on software development project of sustainable, efficient and traceable textile supply chain applications.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
@@ -42,8 +42,8 @@ const About = () => {
           </section>
           <section className="job-item bottom-border mt-2">
             <div className="text-left">
-              <h5 className="font-weight-bold">Project Engineer</h5>
-              <h6 className="font-weight">August 2017 - Oct 2019</h6>
+              <h5 className="font-weight-bold">Project Engineer, Conlustant</h5>
+              <h6 className="font-weight">June 2014 - Oct 2019</h6>
               <p className="font-weight-bold">
                 
                 <a href="https://outso.se/" target="_blank" rel="noopener noreferrer">
@@ -54,15 +54,18 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Worked in research and development project of sustainable, efficient and traceable
-                textile production application.
+                Worked on research and development project of sustainable, efficient and traceable
+                textile retail and supply chain applications and back-office work.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
                 <li>Technical support, web development and testing</li>
                 <li>WordPress and Shopify online store development</li>
                 <li>Domains, emails and control-panel administration</li>
-                <li>Documentation, presentation and report writing</li>
+                <li>Textile inventory, supply, import, export, logistics handling</li>
+                <li>Back-office work, administration and account management</li>
+                <li>Coordination with customers, overseas teams, and vendors</li>
+                <li>Documentation, presentation and technical writing</li>
               </ul>
             </div>
           </section>
