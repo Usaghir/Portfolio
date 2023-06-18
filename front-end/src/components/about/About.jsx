@@ -26,23 +26,25 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-              Worked on software development project of sustainable, efficient and traceable textile supply chain applications.
+              Worked on Web development of sustainable, efficient and traceable textile supply chain applications.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Full-stack development using React and Node JS</li>
-                <li>Mobile App development, Dart and Flutter </li>
-                <li>Backend development using Java, Spring and AWS</li>
-                <li>Testing and deployment of web applications</li>
-                <li>UX/UI design assistance and quality assurance</li>
-                <li>Deployment of websites and mobile apps</li>
-                <li>Requirement management and product ownership roles</li>
+                <li>Developed and maintained web applications using React.js and related technologies.</li>
+                <li>Collaborated with UI/UX designers and back-end developers to implement interfaces.</li>
+                <li>Optimised application performance by identifying and resolving performance bottlenecks.</li>
+                <li>Implemented state management using React Redux to manage complex application data.</li>
+                <li>Utilised React Router for implementing dynamic routing and navigation within the application.</li>
+                <li>Worked with version control systems, such as Git, for collaboration and version management.</li>
+                <li>Code reviews and feedback to peers to maintain code quality and ensure best practices.</li>
+                <li>Integratedn libraries and APIs for enhanced functionality and improved user experience.</li>
+                <li>Implemented responsive designs and ensured cross-browser compatibility across devices.</li>
               </ul>
             </div>
           </section>
           <section className="job-item bottom-border mt-2">
             <div className="text-left">
-              <h5 className="font-weight-bold">Project Engineer, Conlustant</h5>
+              <h5 className="font-weight-bold">Project Engineer, Consultant</h5>
               <h6 className="font-weight">June 2014 - Oct 2019</h6>
               <p className="font-weight-bold">
                 
@@ -54,18 +56,15 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Worked on research and development project of sustainable, efficient and traceable
-                textile retail and supply chain applications and back-office work.
+              Worked on technical support and back-Office roles within a textile startup.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Technical support, web development and testing</li>
-                <li>WordPress and Shopify online store development</li>
-                <li>Domains, emails and control-panel administration</li>
-                <li>Textile inventory, supply, import, export, logistics handling</li>
-                <li>Back-office work, administration and account management</li>
-                <li>Coordination with customers, overseas teams, and vendors</li>
-                <li>Documentation, presentation and technical writing</li>
+              <li>Developed and tested WordPress and Shopify online stores for exceptional user experience.</li>
+                <li>Provided technical support and troubleshooting for web apps, ensuring smooth operations.</li>
+                <li>Administered domains, emails and control panels, managing website hosting and maintenance.</li>
+                <li>Managed back-office operations, including documentation, invoicing, and order processing.</li>
+                <li>Administrative tasks, including email correspondence and maintaining office supplies.</li>
               </ul>
             </div>
           </section>
