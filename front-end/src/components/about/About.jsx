@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-              Worked on Web development of sustainable, efficient and traceable textile supply chain applications.
+              Worked on web development of sustainable, efficient and traceable textile supply chain applications.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
