@@ -1,13 +1,15 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <div className="">
-      <footer className="pt-5 pb-5" style={{ backgroundColor: '#2b7a78' }}>
+      <footer className="pt-5 pb-5" style={{ backgroundColor: "#2b7a78" }}>
         <div className="all-content-box mt-5">
-          <h2 className="font-bebas">Let's Keep in Touch for more information!</h2>
+          <h2 className="font-bebas">
+            Lets Keep in Touch for more information!
+          </h2>
           <ul className="contact-items mb-0 pb-5">
             <li>
               <a
@@ -15,21 +17,27 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-linkedin "></i>
+                <i className="fab fa-linkedin " />
               </a>
             </li>
             <li>
               <a href="mailto:umer.saghir@live.com">
-                <i className="fas fa-envelope"></i>
+                <i className="fas fa-envelope" />
               </a>
             </li>
             <li>
-              <a href="http://github.com/Usaghir" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github-square"></i>
+              <a
+                href="http://github.com/Usaghir"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github-square" />
               </a>
             </li>
           </ul>
-          <div>Copyright © {year}, All right reserved by Raja Umer Saghir </div>
+          <div>
+            Copyright © {year}, All right reserved by Raja Umer Saghir{" "}
+          </div>
         </div>
       </footer>
     </div>

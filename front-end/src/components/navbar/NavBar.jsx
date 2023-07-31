@@ -1,30 +1,31 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import './NavBar.css';
+import React from "react";
+import { Link } from "react-scroll";
+import "./NavBar.css";
+
 function NavBar() {
   function changeColor(e) {
-    e.target.style.color = '#3aafa9';
+    e.target.style.color = "#3aafa9";
   }
 
   function revertColor(e) {
-    e.target.style.color = '#ffffff';
+    e.target.style.color = "#ffffff";
   }
   return (
     <nav
       className="navbar navbar-expand bot-border sticky"
-      style={{ backgroundColor: '#17252a', color: '#feffff' }}
+      style={{ backgroundColor: "#17252a", color: "#feffff" }}
     >
       <ul className="navbar-nav nnn" id="navbar">
         <li className="nav-link navi">
           <Link
             to="home"
             activeClass="active"
-            spy={true}
-            smooth={true}
+            spy
+            smooth
             offset={-70}
             duration={500}
-            onMouseOver={changeColor}
-            onMouseLeave={revertColor}
+            onMouseOver={() => changeColor()}
+            onMouseLeave={() => revertColor()}
             className="font-weight-bold res-size"
           >
             HOME
@@ -34,12 +35,12 @@ function NavBar() {
           <Link
             to="about"
             activeClass="active"
-            spy={true}
-            smooth={true}
+            spy
+            smooth
             offset={-70}
             duration={500}
-            onMouseOver={changeColor}
-            onMouseLeave={revertColor}
+            onMouseOver={() => changeColor()}
+            onMouseLeave={() => revertColor()}
             className="font-weight-bold res-size "
           >
             ABOUT
@@ -49,12 +50,12 @@ function NavBar() {
           <Link
             to="skills"
             activeClass="active"
-            spy={true}
-            smooth={true}
+            spy
+            smooth
             offset={-70}
             duration={500}
-            onMouseOver={changeColor}
-            onMouseLeave={revertColor}
+            onMouseOver={() => changeColor()}
+            onMouseLeave={() => revertColor()}
             className="font-weight-bold res-size "
           >
             SKILLS
@@ -64,12 +65,12 @@ function NavBar() {
           <Link
             to="portfolio"
             activeClass="active"
-            spy={true}
-            smooth={true}
+            spy
+            smooth
             offset={-70}
             duration={500}
-            onMouseOver={changeColor}
-            onMouseLeave={revertColor}
+            onMouseOver={() => changeColor()}
+            onMouseLeave={() => revertColor()}
             className="font-weight-bold res-size "
           >
             PROJECTS
@@ -79,12 +80,12 @@ function NavBar() {
           <Link
             to="contact"
             activeClass="active"
-            spy={true}
-            smooth={true}
+            spy
+            smooth
             offset={-70}
             duration={500}
-            onMouseOver={changeColor}
-            onMouseLeave={revertColor}
+            onMouseOver={() => changeColor()}
+            onMouseLeave={() => revertColor()}
             className="font-weight-bold res-size "
           >
             CONTACT
