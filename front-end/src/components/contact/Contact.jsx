@@ -32,7 +32,7 @@ function Contact() {
         email: state.email,
         message: state.message,
       })
-      .then((res) => {
+      .then(() => {
         setState({
           submitMessage: true,
           name: "",
@@ -117,8 +117,8 @@ function Contact() {
                 backgroundColor: "transparent",
                 color: "#17252a",
               }}
-              onMouseOver={() => changeBackground()}
-              onMouseLeave={() => revertBackground()}
+              onMouseOver={() => changeBackground}
+              onMouseLeave={() => revertBackground}
             >
               Send Email
             </Button>

@@ -12,7 +12,7 @@
 }
 
 .font-bebas {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 1.5px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .skill-components:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@
 }
 
 .skill-components:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

@@ -56,7 +56,7 @@ function Skills() {
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Front end</h3>
               <ul className="mb-5 col list-group skill-list">
-                {state.frontEnd.map((item, index) => (
+                {state.frontEnd.map((item) => (
                   <li
                     className=" list-group-item border-0"
                     key={item}
@@ -92,7 +92,7 @@ function Skills() {
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Back end</h3>
               <ul className="mb-5 col list-group skill-list">
-                {state.backEnd.map((item, index) => (
+                {state.backEnd.map((item) => (
                   <li
                     className=" list-group-item border-0"
                     key={item}
@@ -128,7 +128,7 @@ function Skills() {
               </div>
               <h3 className="mt-4 pt-4 mb-3 pb-3 font-bebas">Tools</h3>
               <ul className="mb-5 col list-group skill-list ">
-                {state.tools.map((item, index) => (
+                {state.tools.map((item) => (
                   <li
                     className=" list-group-item border-0"
                     key={item}

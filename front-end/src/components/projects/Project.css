@@ -6,7 +6,7 @@
 }
 
 .font-bebas {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 1.5px;
 }
 
@@ -22,7 +22,7 @@ img {
   height: 100%;
 }
 
-.divider>section {
+.divider > section {
   overflow: hidden;
   border-bottom: 1px #343434;
   padding: 25px 0;

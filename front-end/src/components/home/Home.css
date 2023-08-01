@@ -10,12 +10,12 @@
 }
 
 .font-bebas {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 1.5px;
 }
 
 .font-courier {
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
 }
 
 .top-gap {
@@ -36,7 +36,6 @@
   margin: auto;
   overflow: hidden;
   visibility: hidden;
-  
 }
 
 .inside-comp {
@@ -63,7 +62,6 @@
   -o-transform: rotate(-60deg);
   -webkit-transform: rotate(-60deg);
   visibility: visible;
- 
 }
 
 @media screen and (max-width: 750px) {
