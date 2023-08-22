@@ -1,5 +1,5 @@
 .home-background {
-  background-image: url(../../images/homeBackground.jpg);
+  background-image: url(../../assets/homeBackground.jpg);
   border: #1e2c30;
   background-size: cover;
   height: 94vh;
@@ -54,7 +54,7 @@
 .img-comp {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/profile.jpeg);
+  background-image: url(../../assets/profile.jpeg);
   background-position: center;
   background-size: 50%;
   transform: rotate(-60deg);

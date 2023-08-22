@@ -15,7 +15,7 @@ const About = () => {
           <h3 className="pt-5 font-bebas">Work Experience</h3>
           <section className="job-item bottom-border mt-5">
             <div className="text-left">
-              <h5 className="font-weight-bold">Software Engineer</h5>
+              <h5 className="font-weight-bold">Software Developer</h5>
               <h6 className="font-weight">February 2021 - September 2022</h6>
               <p className="font-weight-bold">
                 <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
@@ -26,11 +26,11 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-              Worked on web development of sustainable, efficient and traceable textile supply chain applications.
+              Worked on development of sustainable, efficient and traceable textile supply chain Web and Mobile applications.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
-              <ul className="text-left mb-5">
-                <li>Developed and maintained web applications using React.js and related technologies.</li>
+              <ul className="text-left mb-5 " >
+                <li>Developed and maintained web and mobile applications using React.js and Flutter.</li>
                 <li>Collaborated with UI/UX designers and back-end developers to implement interfaces.</li>
                 <li>Optimised application performance by identifying and resolving performance bottlenecks.</li>
                 <li>Implemented state management using React Redux to manage complex application data.</li>
@@ -44,7 +44,7 @@ const About = () => {
           </section>
           <section className="job-item bottom-border mt-2">
             <div className="text-left">
-              <h5 className="font-weight-bold">Project Engineer, Consultant</h5>
+              <h5 className="font-weight-bold"> Engineer (Technical Support), Consultant</h5>
               <h6 className="font-weight">June 2014 - Oct 2019</h6>
               <p className="font-weight-bold">
                 

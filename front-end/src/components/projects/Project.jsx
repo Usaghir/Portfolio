@@ -1,7 +1,7 @@
 import React from 'react';
-import PaperTale from '../../images/papertale.png';
-import defever from '../../images/defever.jpeg';
-import pizza from '../../images/pizza.jpeg';
+import PaperTale from '../../assets/papertale.png';
+import defever from '../../assets/defever.jpeg';
+import pizza from '../../assets/pizza.jpeg';
 import Button from 'react-bootstrap/Button';
 import './Project.css';
 
@@ -27,10 +27,7 @@ function Project() {
           <div className=" text-left">
             <h3 className="font-bebas">Defever</h3>
             <p>
-              Defever is a forum application regarding to stay in contact during COVID-19. It has
-              login and registration. Users can view Covid-19 cases update chart of Sweden and rest
-              of the world. It also have post page for creating post, comment, like and delete. It
-              also have chat room for group. Users can update profile as well.
+            Defever is React and SpringBoot based COVID-19 era full-stack social media application along with PSQL, Docker and related technologies. It offers user registration and login. A Dashboard page for worldwide COVID-19 cases updates in form of graphs. A page for posts, comment, like, and delete posts. A page for group chat feature and another page to see and update profiles.
             </p>
             <Button
               className="font-bebas pt-2 rounded-0"
@@ -67,10 +64,10 @@ function Project() {
           <div className=" text-left">
             <h3 className="font-bebas ">Topizza</h3>
             <p>
-              Topizza is a demo Reactjs, Express, PostgreSQL based online pizza delivery web
-              application. Users can choose items from menu and add in shopping cart. Users can add,
-              subtract quantities or remove items from shopping cart. Users can see costs in Euro
-              and USD. Users can see history of orders as invoice by providing email.
+            Topizza is a React, Redux, Node, Express based full stack web application along with PostgreSQL and 
+            related technologies which demonstrate online pizza order capabilities where users can choose menu 
+            items, add to cart, adjust quantities. The application enhances user experience by enabling the 
+            retrieval of order history as invoices and also have contact form page for customer service. 
             </p>
             <Button
               className="font-bebas pt-2 rounded-0"
@@ -107,10 +104,9 @@ function Project() {
           <div className=" text-left">
             <h3 className="font-bebas">PaperTale</h3>
             <p>
-              PaperTale Tracking is a HTML, CSS, Bootstrap, JavaScript, React based marketing web application to give demo of actual PaperTale mobile app and encourage 
-              consumers to download it. It has input page
-              where consumer can input a garment code (PFAB10323 for demo) of the brand and can see some supply chain information
-              like total water and carbon impact, some workers and one product journey step.
+            PaperTale is React based marketing web application which showcase the PaperTale mobile app while incentivizing users to download it
+            . The application consists of an input page, enabling consumers to input a garment id (e.g., PFAB10323) which present some supply
+             chain data, encompassing metrics such as total water and carbon impact, partial worker insights and some product journey stage.
             </p>
 
             <Button
