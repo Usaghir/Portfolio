@@ -15,8 +15,8 @@ const About = () => {
           <h3 className="pt-5 font-bebas">Work Experience</h3>
           <section className="job-item bottom-border mt-5">
             <div className="text-left">
-              <h5 className="font-weight-bold">Software Engineer</h5>
-              <h6 className="font-weight">February 2021 - Present</h6>
+              <h5 className="font-weight-bold">Software Developer</h5>
+              <h6 className="font-weight">February 2021 - September 2022</h6>
               <p className="font-weight-bold">
                 <a href="https://www.papertale.org/" target="_blank" rel="noopener noreferrer">
                   PaperTale Technology AB
@@ -26,24 +26,26 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Worked in Software development project of sustainable, efficient and traceable
-                textile supply chain Mobile and Web application PaperTale.
+              Worked on development of sustainable, efficient and traceable textile supply chain Web and Mobile applications.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
-              <ul className="text-left mb-5">
-                <li>Web development, HTML, CSS, JS, React, NodeJS</li>
-                <li>Mobile App development, Dart and Flutter </li>
-                <li>Deployment of web and mobile App</li>
-                <li>UX/UI support, quality control, testing</li>
-                <li>Backend development, Java, Spring boot</li>
-                <li>Requirement management, product owner</li>
+              <ul className="text-left mb-5 " >
+                <li>Developed and maintained web and mobile applications using React.js and Flutter.</li>
+                <li>Collaborated with UI/UX designers and back-end developers to implement interfaces.</li>
+                <li>Optimised application performance by identifying and resolving performance bottlenecks.</li>
+                <li>Implemented state management using React Redux to manage complex application data.</li>
+                <li>Utilised React Router for implementing dynamic routing and navigation within the application.</li>
+                <li>Worked with version control systems, such as Git, for collaboration and version management.</li>
+                <li>Code reviews and feedback to peers to maintain code quality and ensure best practices.</li>
+                <li>Integratedn libraries and APIs for enhanced functionality and improved user experience.</li>
+                <li>Implemented responsive designs and ensured cross-browser compatibility across devices.</li>
               </ul>
             </div>
           </section>
           <section className="job-item bottom-border mt-2">
             <div className="text-left">
-              <h5 className="font-weight-bold">Project Engineer</h5>
-              <h6 className="font-weight">August 2017 - Oct 2019</h6>
+              <h5 className="font-weight-bold"> Engineer (Technical Support), Consultant</h5>
+              <h6 className="font-weight">June 2014 - Oct 2019</h6>
               <p className="font-weight-bold">
                 
                 <a href="https://outso.se/" target="_blank" rel="noopener noreferrer">
@@ -54,15 +56,15 @@ const About = () => {
             </div>
             <div className="job-summary">
               <article className="text-left font-weight ">
-                Worked in research and development project of sustainable, efficient and traceable
-                textile production application.
+              Worked on technical support and back-Office roles within a textile startup.
               </article>
               <h6 className="text-left mt-3 font-weight-bold">Key Responsibilities</h6>
               <ul className="text-left mb-5">
-                <li>Technical support, ERP development, testing</li>
-                <li>WordPress, Shopify online store development</li>
-                <li>Domains, emails and control-panel administration</li>
-                <li>Documentation, presentation, report writing</li>
+              <li>Developed and tested WordPress and Shopify online stores for exceptional user experience.</li>
+                <li>Provided technical support and troubleshooting for web apps, ensuring smooth operations.</li>
+                <li>Administered domains, emails and control panels, managing website hosting and maintenance.</li>
+                <li>Managed back-office operations, including documentation, invoicing, and order processing.</li>
+                <li>Administrative tasks, including email correspondence and maintaining office supplies.</li>
               </ul>
             </div>
           </section>
