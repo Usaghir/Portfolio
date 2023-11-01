@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-scroll';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -15,8 +15,8 @@ const Home = () => {
     e.target.style.background = 'transparent';
   }
 
-  const str1 = 'Hello, I am Raja Umer Saghir. ';
-  const str2 = 'I am full-stack developer.';
+  const str1 = 'Hello, I am Raja Umer ';
+  const str2 = 'I am full-stack developer';
   return (
     <Card className="text-center home-background pt-5" id="home">
       <Card.Body className=" top-gap">
@@ -31,12 +31,22 @@ const Home = () => {
             color: '#feffff',
           }}
         >
-          <Typical
-            className="Typical h1 font-courier"
-            loop={Infinity}
-            wrapper="b"
-            steps={[str1, 2000, str2, 2000]}
-          />{' '}
+          <TypeAnimation
+      sequence={[
+        str1, // Types 'One'
+        1000, // Waits 1s
+        str2, // Deletes 'One' and types 'Two'
+        1000, // Waits 2s
+        //'Two Three', // Types 'Three' without deleting 'Two'
+        () => {
+          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '2em', display: 'inline-block', fontFamily: "Courier New" }}
+    />
         </Card.Title>{' '}
         <Link
           to="portfolio"
