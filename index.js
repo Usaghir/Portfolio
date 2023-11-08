@@ -80,6 +80,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'front-end/build/index.html'));
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`server has started on port ${PORT}`);
 });
+ 
