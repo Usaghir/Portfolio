@@ -54,7 +54,7 @@ const Home = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={5000}
           style={{
             color: '#feffff',
           }}
