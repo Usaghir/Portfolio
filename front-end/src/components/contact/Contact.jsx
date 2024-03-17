@@ -46,73 +46,74 @@ function Contact() {
       });
   };
   return (
-    <div className="pt-5" style={{ backgroundColor: '#DEF2F1' }}>
-      <div className="container pt-5 pb-5  w-50" id="contact">
-        <h1 className="  font-weight-bold">CONTACT</h1>
-        <div className="underline-bar mb-5"></div>
+    <div className='pt-5' style={{ backgroundColor: '#DEF2F1' }}>
+      <div className='container pt-5 pb-5  w-50' id='contact'>
+        <h1 className='  font-weight-bold'>CONTACT</h1>
+        <div className='underline-bar mb-5'></div>
         <form
-          className=" needs-validation card  pt-5  border-0"
+          className=' needs-validation card  pt-5  border-0'
           style={{ backgroundColor: '#DEF2F1' }}
           onSubmit={submitHandler}
         >
-          <div className="form-col " style={{ backgroundColor: '#DEF2F1' }}>
-            <div className="form-group ">
+          <div className='form-col ' style={{ backgroundColor: '#DEF2F1' }}>
+            <div className='form-group '>
               <input
-                type="text"
-                className="form-control border-0 rounded-0"
+                type='text'
+                className='form-control border-0 rounded-0'
                 style={{ color: '#DEF2F1', backgroundColor: '#17252a' }}
-                id="inputEmail4"
-                placeholder="Name"
+                id='inputEmail4'
+                placeholder='Name*'
                 value={state.name}
                 onChange={changeHandler}
-                name="name"
+                name='name'
                 required
               ></input>
             </div>
-            <div className="form-group">
+            <div className='form-group'>
               <input
-                type="text"
-                className="form-control  border-0 rounded-0"
+                type='text'
+                className='form-control  border-0 rounded-0'
                 style={{ color: '#DEF2F1', backgroundColor: '#17252a' }}
-                id="inputEmail4"
-                placeholder="Email"
+                id='inputEmail4'
+                placeholder='Email*'
                 value={state.email}
                 onChange={changeHandler}
-                name="email"
+                name='email'
                 required
               ></input>
             </div>
-            <div className="form-group">
+            <div className='form-group'>
               <textarea
-                className="form-control border-0 rounded-0"
+                className='form-control border-0 rounded-0'
                 style={{ color: '#DEF2F1', backgroundColor: '#17252a' }}
-                id="message"
-                name="message"
+                id='message'
+                name='message'
                 value={state.message}
                 onChange={changeHandler}
-                placeholder="Please enter your massage here."
-                rows="7"
+                placeholder='Please enter your message here*'
+                rows='7'
                 required
               ></textarea>
             </div>
           </div>
           {state.submitMessage ? (
-            <div className="form-group ">
+            <div className='form-group '>
               <div
-                className="form-control  border-0 pl-3 rounded-0"
+                className='form-control  border-0 pl-3 rounded-0'
                 style={{ background: '#3aafa9', color: '#f7ffff' }}
               >
-                Thanks for sending the message and will get back as soon as possible.
+                Thanks for sending the message and will get back as soon as
+                possible.
               </div>
             </div>
           ) : (
             ''
           )}
-          <div className="form-group">
+          <div className='form-group'>
             <Button
-              type="submit"
-              className="font-bebas pt-2 ml-2 rounded-0"
-              variant="dark"
+              type='submit'
+              className='font-bebas pt-2 ml-2 rounded-0'
+              variant='dark'
               style={{
                 backgroundColor: 'transparent',
                 color: '#17252a',
