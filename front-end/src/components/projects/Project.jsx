@@ -6,7 +6,7 @@ import EpicMust from '../../assets/epicmust.png';
 import Button from 'react-bootstrap/Button';
 
 import './Project.css';
-import { Link } from 'react-router-dom';
+
 
 function Project() {
   function changeBackground(e) {
