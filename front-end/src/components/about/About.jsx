@@ -75,7 +75,7 @@ const About = () => {
               <h6 className='font-weight'>November 2022 - November 2023</h6>
               <p className='font-weight-bold'>
                 <a
-                  href='www.https://upwork.com/'
+                  href='https://www.upwork.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   style={{ fontWeight: 'bold', textDecoration: 'underline' }}
@@ -346,7 +346,7 @@ const About = () => {
                 </a>{' '}
                 &{' '}
                 <a
-                  href='https://www.novarepotential.se/software-development-academy/'
+                  href='https://novare.se/potential/en/'
                   target='_blank'
                   rel='noopener noreferrer'
                   style={{ textDecoration: 'underline' }}
