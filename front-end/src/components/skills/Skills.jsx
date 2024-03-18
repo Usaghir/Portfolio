@@ -46,7 +46,7 @@ function Skills() {
       { Git: '60' },
       { GitHub: '60' },
       { GitLab: '60' },
-      { npm: '60' },
+      { NPM: '60' },
       { Yarn: '60' },
       { Pnpm: '60' },
       { Jira: '50' },
