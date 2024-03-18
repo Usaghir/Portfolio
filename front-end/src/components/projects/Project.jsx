@@ -29,7 +29,7 @@ function Project() {
         <div className='underline-dark-bar mb-5'></div>
         <div className='underline-bar mb-5'></div>
         <section className='project-item row justify-content-start'>
-          <a href='https://track.papertale.se/' target='_blank'>
+          <a href='https://track.papertale.se/' target='_blank' rel="noreferrer">
             <img
               style={{ maxHeight: '200px' }}
               src={PaperTale}
@@ -119,7 +119,7 @@ function Project() {
           </div>
         </section>
         <section className='project-item row'>
-          <a href='https://epicmust.com/' target='_blank'>
+          <a href='https://epicmust.com/' target='_blank' rel="noreferrer">
             <img
               style={{ maxHeight: '200px' }}
               src={EpicMust}
@@ -154,7 +154,7 @@ function Project() {
           </div>
         </section>
         <section className='project-item row'>
-          <a href='https://defever.netlify.app/' target='_blank'>
+          <a href='https://defever.netlify.app/' target='_blank' rel="noreferrer">
             <img
               style={{ maxHeight: '200px' }}
               src={defever}
@@ -203,7 +203,7 @@ function Project() {
           </div>
         </section>
         <section className='project-item pt-5 row'>
-          <a href='https://defever.netlify.app/' target='_blank'>
+          <a href='https://defever.netlify.app/' target='_blank' rel="noreferrer">
             <img
               style={{ maxHeight: '200px' }}
               src={pizza}
