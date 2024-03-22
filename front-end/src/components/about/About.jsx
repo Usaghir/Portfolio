@@ -36,7 +36,7 @@ const About = () => {
             </div>
             <div className='job-summary'>
               <article className='text-left font-weight '>
-                Played a pivotal role in engineering a real-time collaboration
+                Playing a pivotal role in engineering a real-time collaboration
                 platform focused on sustainability data, utilizing Next.js,
                 React, TypeScript, Tailwind, LiveBlocks, and Zustand.
               </article>
