@@ -3,10 +3,10 @@ import PaperTale from '../../assets/papertale.png';
 import defever from '../../assets/defever.jpeg';
 import pizza from '../../assets/pizza.jpeg';
 import EpicMust from '../../assets/epicmust.png';
+import TopTechSol from '../../assets/toptechsol.png';
 import Button from 'react-bootstrap/Button';
 
 import './Project.css';
-
 
 function Project() {
   function changeBackground(e) {
@@ -29,7 +29,11 @@ function Project() {
         <div className='underline-dark-bar mb-5'></div>
         <div className='underline-bar mb-5'></div>
         <section className='project-item row justify-content-start'>
-          <a href='https://track.papertale.se/' target='_blank' rel="noreferrer">
+          <a
+            href='https://track.papertale.se/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               style={{ maxHeight: '200px' }}
               src={PaperTale}
@@ -119,7 +123,7 @@ function Project() {
           </div>
         </section>
         <section className='project-item row'>
-          <a href='https://epicmust.com/' target='_blank' rel="noreferrer">
+          <a href='https://epicmust.com/' target='_blank' rel='noreferrer'>
             <img
               style={{ maxHeight: '200px' }}
               src={EpicMust}
@@ -154,7 +158,11 @@ function Project() {
           </div>
         </section>
         <section className='project-item row'>
-          <a href='https://defever.netlify.app/' target='_blank' rel="noreferrer">
+          <a
+            href='https://defever.netlify.app/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               style={{ maxHeight: '200px' }}
               src={defever}
@@ -203,7 +211,49 @@ function Project() {
           </div>
         </section>
         <section className='project-item pt-5 row'>
-          <a href='https://defever.netlify.app/' target='_blank' rel="noreferrer">
+          <a
+            href='https://toptechsol.se/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              style={{ maxHeight: '200px' }}
+              src={TopTechSol}
+              alt='website thumbnail'
+            ></img>
+          </a>
+          <div className=' text-left'>
+            <h3 className='font-bebas '>TopTechSol</h3>
+            <p>
+              TopTechSol is a WordPress-based hub for web development, digital
+              marketing, and SEO. It emphasizes user-friendly design and mobile
+              responsiveness, offering solutions to boost online presence. The
+              site includes interactive elements for engagement, showcasing our
+              commitment to innovation and excellence in digital services. It
+              represents the integration of technology with creative solutions.
+            </p>
+            <Button
+              className='font-bebas pt-2 rounded-0'
+              variant='dark'
+              href='https://toptechsol.se/'
+              target='_blank'
+              style={{
+                backgroundColor: 'transparent',
+                color: '#17252a',
+              }}
+              onMouseOver={changeBackground}
+              onMouseLeave={revertBackground}
+            >
+              Link
+            </Button>
+          </div>
+        </section>
+        <section className='project-item pt-5 row'>
+          <a
+            href='https://topizza-31e90.firebaseapp.com/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               style={{ maxHeight: '200px' }}
               src={pizza}
