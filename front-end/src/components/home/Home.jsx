@@ -16,7 +16,7 @@ const Home = () => {
   }
 
   const str1 = 'Hello, I am Raja Umer ';
-  const str2 = 'I am full-stack developer';
+  const str2 = 'I am full-stack Engineer';
   return (
     <Card className="text-center home-background pt-5" id="home">
       <Card.Body className=" top-gap">
@@ -70,7 +70,7 @@ const Home = () => {
             onMouseOver={changeBackground}
             onMouseLeave={revertBackground}
           >
-            view my work
+            Some Projects
           </Button>
         </Link>
         <Button
