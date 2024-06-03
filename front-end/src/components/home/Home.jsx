@@ -70,7 +70,7 @@ const Home = () => {
             onMouseOver={changeBackground}
             onMouseLeave={revertBackground}
           >
-            Some Projects
+            Some of my work
           </Button>
         </Link>
         <Button
