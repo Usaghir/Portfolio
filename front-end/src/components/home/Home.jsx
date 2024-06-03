@@ -16,7 +16,7 @@ const Home = () => {
   }
 
   const str1 = 'Hello, I am Raja Umer ';
-  const str2 = 'I am full-stack developer';
+  const str2 = 'I am full-stack Engineer';
   return (
     <Card className="text-center home-background pt-5" id="home">
       <Card.Body className=" top-gap">
@@ -39,7 +39,7 @@ const Home = () => {
         1000, // Waits 2s
         //'Two Three', // Types 'Three' without deleting 'Two'
         () => {
-          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+          //console.log('Sequence completed'); // Place optional callbacks anywhere in the array
         }
       ]}
       wrapper="span"
@@ -54,7 +54,7 @@ const Home = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={5000}
           style={{
             color: '#feffff',
           }}
@@ -70,7 +70,7 @@ const Home = () => {
             onMouseOver={changeBackground}
             onMouseLeave={revertBackground}
           >
-            view my work
+            Some of my work
           </Button>
         </Link>
         <Button
