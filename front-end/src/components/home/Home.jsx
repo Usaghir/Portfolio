@@ -39,7 +39,7 @@ const Home = () => {
         1000, // Waits 2s
         //'Two Three', // Types 'Three' without deleting 'Two'
         () => {
-          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+          //console.log('Sequence completed'); // Place optional callbacks anywhere in the array
         }
       ]}
       wrapper="span"

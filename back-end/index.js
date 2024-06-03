@@ -35,7 +35,7 @@ app.get("/api/form", async (req, res) => {
 
 app.post("/api/send", async (req, res) => {
   try {
-    console.log(req.body);
+    //console.log(req.body);
     res.send("hello");
 
     const sentData = `
@@ -67,7 +67,7 @@ app.post("/api/send", async (req, res) => {
       html: `<b>${sentData}</b>`, // html body
     });
 
-    console.log("Message sent: %s", info.messageId);
+    //console.log("Message sent: %s", info.messageId);
     // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
   } catch (err) {
     console.error(err.message);
@@ -84,5 +84,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`server has started on port ${PORT}`);
+  //(`server has started on port ${PORT}`);
 });
