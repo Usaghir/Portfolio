@@ -8,7 +8,7 @@ function Footer() {
       <footer className="pt-5 pb-5" style={{ backgroundColor: '#2b7a78' }}>
         <div className="all-content-box mt-5">
           <h2 className="font-bebas">Let's Keep in Touch for more information!</h2>
-          <ul className="contact-items mb-0 pb-5">
+          <ul className="footer-items mb-0 pb-5 pl-0">
             <li>
               <a
                 href="https://www.linkedin.com/in/usaghir/"

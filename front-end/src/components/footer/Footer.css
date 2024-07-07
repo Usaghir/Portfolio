@@ -6,20 +6,20 @@ footer {
   color: #f7fff7;
 }
 
-.contact-items a {
+.footer-items a {
   display: inline-block;
 }
 
-.contact-items {
+.footer-items {
   list-style-type: none;
   font-size: 3rem;
 }
 
-.contact-items i:hover {
+.footer-items i:hover {
   color: #17252a;
 }
 
-.contact-items i {
+.footer-items i {
   color: rgb(232, 235, 240);
 }
 
@@ -30,11 +30,12 @@ footer {
   footer {
     text-align: center;
   }
-  .contact-items {
+  .footer-items {
     display: flex;
     justify-content: center;
+
   }
-  .contact-items a {
+  .footer-items a {
     padding: 15px;
   }
 }

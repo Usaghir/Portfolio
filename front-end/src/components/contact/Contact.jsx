@@ -34,6 +34,7 @@ function Contact() {
         message: state.message,
       })
       .then((res) => {
+        console.log(res);
         setState({
           submitMessage: true,
           name: '',
@@ -99,11 +100,10 @@ function Contact() {
           {state.submitMessage ? (
             <div className='form-group '>
               <div
-                className='form-control  border-0 pl-3 rounded-0'
+                className='form-control  border-0 pl-3 rounded-0 success-container'
                 style={{ background: '#3aafa9', color: '#f7ffff' }}
               >
-                Thanks for sending the message and will get back as soon as
-                possible.
+                Your message has been sent successfully!
               </div>
             </div>
           ) : (
@@ -112,7 +112,7 @@ function Contact() {
           <div className='form-group'>
             <Button
               type='submit'
-              className='font-bebas pt-2 ml-2 rounded-0'
+              className='font-bebas pt-2 rounded-0'
               variant='dark'
               style={{
                 backgroundColor: 'transparent',

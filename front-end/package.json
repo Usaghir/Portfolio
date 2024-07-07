@@ -36,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://portfolio-webservice.onrender.com/"
+  "proxy": "http://portfolio-webservice.onrender.com/"
 }
