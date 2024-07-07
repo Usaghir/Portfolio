@@ -48,7 +48,7 @@ function Contact() {
   };
   return (
     <div className='pt-5' style={{ backgroundColor: '#DEF2F1' }}>
-      <div className='container pt-5 pb-5  w-50' id='contact'>
+      <div className='container pt-5 pb-5 form-width' id='contact'>
         <h1 className='  font-weight-bold'>CONTACT</h1>
         <div className='underline-bar mb-5'></div>
         <form
