@@ -34,14 +34,10 @@ function Project() {
             target='_blank'
             rel='noreferrer'
           >
-            <img
-              style={{ maxHeight: '200px' }}
-              src={PaperTale}
-              alt='course thumbnail'
-            ></img>
+            <img src={PaperTale} alt='course thumbnail'></img>
           </a>
-          <div className=' text-left'>
-            <h3 className='font-bebas res-marg'>PaperTale Tracking App</h3>
+          <div className=' align-items'>
+            <h3 className='font-bebas res-marg '>PaperTale Tracking App</h3>
             <p>
               The PaperTale Tracking App, a React-based marketing web
               application, used by renowned Swedish textile retailers like{' '}
@@ -124,13 +120,9 @@ function Project() {
         </section>
         <section className='project-item row'>
           <a href='https://epicmust.com/' target='_blank' rel='noreferrer'>
-            <img
-              style={{ maxHeight: '200px' }}
-              src={EpicMust}
-              alt='website thumbnail'
-            ></img>
+            <img src={EpicMust} alt='website thumbnail'></img>
           </a>
-          <div className=' text-left'>
+          <div className=' align-items'>
             <h3 className='font-bebas res-marg'>EpicMust</h3>
             <p>
               The EpicMust Store is a fully-featured and running Shopify
@@ -163,13 +155,9 @@ function Project() {
             target='_blank'
             rel='noreferrer'
           >
-            <img
-              style={{ maxHeight: '200px' }}
-              src={defever}
-              alt='website thumbnail'
-            ></img>
+            <img src={defever} alt='website thumbnail'></img>
           </a>
-          <div className=' text-left'>
+          <div className=' align-items'>
             <h3 className='font-bebas res-marg'>Defever</h3>
             <p>
               Defever is a React and Spring Boot COVID-19 and social media demo
@@ -212,13 +200,9 @@ function Project() {
         </section>
         <section className='project-item pt-5 row'>
           <a href='https://toptechsol.com/' target='_blank' rel='noreferrer'>
-            <img
-              style={{ maxHeight: '200px' }}
-              src={TopTechSol}
-              alt='website thumbnail'
-            ></img>
+            <img src={TopTechSol} alt='website thumbnail'></img>
           </a>
-          <div className=' text-left'>
+          <div className=' align-items'>
             <h3 className='font-bebas res-marg'>TopTechSol</h3>
             <p>
               TopTechSol is a WordPress-based hub for web development, digital
@@ -250,13 +234,9 @@ function Project() {
             target='_blank'
             rel='noreferrer'
           >
-            <img
-              style={{ maxHeight: '200px' }}
-              src={pizza}
-              alt='website thumbnail'
-            ></img>
+            <img src={pizza} alt='website thumbnail'></img>
           </a>
-          <div className=' text-left'>
+          <div className='align-items'>
             <h3 className='font-bebas res-marg'>Topizza</h3>
             <p>
               Topizza is a React, Redux, Node, Express based full stack web
