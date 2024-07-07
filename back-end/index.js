@@ -52,6 +52,8 @@ app.post('/api/send', async (req, res) => {
       <h3>Message</h3>
       <p>${message}</p>`;
 
+  
+
     // Create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,

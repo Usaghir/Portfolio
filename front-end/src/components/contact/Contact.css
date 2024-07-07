@@ -16,3 +16,8 @@ input:-webkit-autofill:active {
 input:-webkit-autofill {
   -webkit-text-fill-color: #f7ffff !important;
 }
+@media (max-width: 768px) {
+  .success-container {
+    height: 90px;
+  }
+}
