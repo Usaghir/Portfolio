@@ -11,26 +11,26 @@ function NavBar() {
   }
   return (
     <nav
-      className="navbar navbar-expand bot-border sticky"
+      className='navbar navbar-expand bot-border sticky'
       style={{ backgroundColor: '#17252a', color: '#feffff' }}
     >
-      <ul className="navbar-nav nnn" id="navbar">
-        <li className="nav-link navi">
+      <ul className='navbar-nav nnn' id='navbar'>
+        <li className='nav-link navi'>
           <Link
-            to="home"
-            activeClass="active"
+            to='home'
+            activeClass='active'
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold res-size"
+            className='font-weight-bold res-size'
           >
             HOME
           </Link>
         </li>
-{/*         <li className="nav-link navi">
+        {/*         <li className="nav-link navi">
           <Link
             to="about"
             activeClass="active"
@@ -45,47 +45,47 @@ function NavBar() {
             ABOUT
           </Link>
         </li> */}
-        <li className="nav-link navi">
+        <li className='nav-link navi'>
           <Link
-            to="skills"
-            activeClass="active"
+            to='skills'
+            activeClass='active'
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold res-size "
+            className='font-weight-bold res-size '
           >
             SKILLS
           </Link>
         </li>
-        <li className="nav-link navi">
+        <li className='nav-link navi'>
           <Link
-            to="portfolio"
-            activeClass="active"
+            to='portfolio'
+            activeClass='active'
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold res-size "
+            className='font-weight-bold res-size '
           >
             PROJECTS
           </Link>
         </li>
-        <li className="nav-link navi">
+        <li className='nav-link navi'>
           <Link
-            to="contact"
-            activeClass="active"
+            to='contact'
+            activeClass='active'
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             onMouseOver={changeColor}
             onMouseLeave={revertColor}
-            className="font-weight-bold res-size "
+            className='font-weight-bold res-size '
           >
             CONTACT
           </Link>
