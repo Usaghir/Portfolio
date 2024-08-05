@@ -9,10 +9,9 @@ import Footer from './components/footer/Footer.jsx';
 
 import './App.css';
 
-
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Home />
       <NavBar />
       {/* <About /> */}
