@@ -26,9 +26,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      react-particles-js:
-        specifier: ^3.6.0
-        version: 3.6.0(react@18.2.0)(tsparticles@1.43.1)
       react-pdf:
         specifier: ^7.0.1
         version: 7.7.1(@types/react@18.2.67)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -4697,13 +4694,6 @@ packages:
   react-lifecycles-compat@3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
 
-  react-particles-js@3.6.0:
-    resolution: {integrity: sha512-gQzUKZgPpjdplhAtskLnn9frLyei6uGuWabNtBGWnr3eZpHXfXJO1F8sedPhO29xfpKixE3HEejwGQAld8K16Q==}
-    deprecated: This package has been deprecated in favor of react-tsparticles.
-    peerDependencies:
-      react: ^16.0.0
-      tsparticles: <2.0.0
-
   react-pdf@7.7.1:
     resolution: {integrity: sha512-cbbf/PuRtGcPPw+HLhMI1f6NSka8OJgg+j/yPWTe95Owf0fK6gmVY7OXpTxMeh92O3T3K3EzfE0ML0eXPGwR5g==}
     peerDependencies:
@@ -5376,10 +5366,6 @@ packages:
 
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-
-  tsparticles@1.43.1:
-    resolution: {integrity: sha512-6EuHncwqzoyTlUxc11YH8LVlwVUgpYaZD0yMOeA2OvRqFZ9VQV8EjjQ6ZfXt6pfGA1ObPwU929jveFatxwTQkg==}
-    deprecated: tsParticles v3 is out, it contains breaking changes and it's recommended to migrate to that version with fixes and new features
 
   tsutils@3.21.0:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -11384,12 +11370,6 @@ snapshots:
 
   react-lifecycles-compat@3.0.4: {}
 
-  react-particles-js@3.6.0(react@18.2.0)(tsparticles@1.43.1):
-    dependencies:
-      lodash: 4.17.21
-      react: 18.2.0
-      tsparticles: 1.43.1
-
   react-pdf@7.7.1(@types/react@18.2.67)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       clsx: 2.1.0
@@ -12243,8 +12223,6 @@ snapshots:
   tslib@2.5.0: {}
 
   tslib@2.6.2: {}
-
-  tsparticles@1.43.1: {}
 
   tsutils@3.21.0(typescript@5.4.2):
     dependencies:
