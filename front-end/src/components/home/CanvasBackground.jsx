@@ -1,13 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 
-const Constellation = () => {
+const SimplifiedConstellation = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     const stars = [];
-    const numStars = 100;
+    const numStars = 30;
 
     class Star {
       constructor(x, y, speed) {
@@ -35,9 +35,10 @@ const Constellation = () => {
         const distance = Math.sqrt(
           (this.x - otherStar.x) ** 2 + (this.y - otherStar.y) ** 2
         );
-        if (distance < 100) {
-          ctx.strokeStyle = `rgba(255, 255, 255, ${1 - distance / 100})`;
-          ctx.lineWidth = 1;
+        if (distance < 80) {
+          // Smaller radius for connections
+          ctx.strokeStyle = `rgba(255, 255, 255, ${1 - distance / 80})`;
+          ctx.lineWidth = 0.5; // Thinner lines
           ctx.beginPath();
           ctx.moveTo(this.x, this.y);
           ctx.lineTo(otherStar.x, otherStar.y);
@@ -51,8 +52,8 @@ const Constellation = () => {
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
         const speed = {
-          x: (Math.random() - 0.5) * 2,
-          y: (Math.random() - 0.5) * 2,
+          x: (Math.random() - 0.5) * 0.5, // Slower speed
+          y: (Math.random() - 0.5) * 0.5,
         };
         stars.push(new Star(x, y, speed));
       }
@@ -95,4 +96,4 @@ const Constellation = () => {
   );
 };
 
-export default Constellation;
+export default SimplifiedConstellation;
